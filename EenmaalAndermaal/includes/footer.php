@@ -6,6 +6,7 @@
  * Time: 13:31
  */
     echo '
+<div class="footer">
         <br>
         <div clas="d-flex flex-nowrap d-flex justify-content-around">
             <nav class="d-flex flex-sm-nowrap d-flex justify-content-sm-around">
@@ -47,5 +48,6 @@
                 © Copyright door iConcepts
             </p>
         </div>
+</div>
     ';
 ?>

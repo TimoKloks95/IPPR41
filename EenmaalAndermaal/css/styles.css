@@ -5,6 +5,11 @@
     position: relative;
 }
 
+.footer {
+    position: relative;
+    z-index: -100;
+}
+
 .detailContainer {
     max-width: 60%;
     height: auto;
@@ -14,4 +19,14 @@
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
+}
+
+.carousel img {
+    max-width: 60vw;
+    max-height: 60vh;
+}
+
+.navbarimages {
+    max-width: 10vw;
+    max-height: 7vh;
 }

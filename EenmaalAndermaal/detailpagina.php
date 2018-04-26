@@ -1,3 +1,10 @@
+<?php
+require_once 'includes/header.php';
+require_once 'includes/footer.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="nl">
     <head>
@@ -13,11 +20,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
                 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
-    <header>
-        <?php
-            require_once 'header.php';
-        ?>
-    </header>
     <body>
         <div class="container">
             <div class="d-flex flex-sm-nowrap">
@@ -95,11 +97,6 @@
             </div>
         </div>
     </body>
-    <footer>
-        <?php
-            require_once 'footer.php';
-        ?>
-    </footer>
 </html>
 
 <?php

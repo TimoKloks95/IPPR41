@@ -10,7 +10,7 @@
         <div class="container">
             <div class="d-flex justify-content-around">
                 <div class="p-2">
-                    <img src="images/logo.png" class="img-fluid" width="160" height="70" alt="logo">
+                    <img src="../images/logo.png" class="img-fluid" width="160" height="70" alt="logo">
                 </div>
                 <div class="p-2">
                     <nav class="navbar">
