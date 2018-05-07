@@ -37,7 +37,6 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-<<<<<<< HEAD
                     <p>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                         Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
                         pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
@@ -70,7 +69,6 @@
                                 <h3>Locatie</h3>
                                 <p>Insert tekst.</p>
                             </div>
-=======
                 </div>
 
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
@@ -109,9 +107,7 @@
                         </div>
                         <div id="locatie" class="tab-pane fade">
                             <h3>Locatie</h3>
-                            <p>Insert tekst.</p>
->>>>>>> cc0ee374f4dda7ffc2981f2fe8fba27b71ed1552
-                        </div>
+                            <p>Insert tekst.</p></div>
                     </div>
                 </div>
             </div>

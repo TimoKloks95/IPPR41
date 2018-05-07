@@ -28,8 +28,8 @@ header > .container {
 }
 
 .menu-item{
-    max-width: 5vw;
-    max-height: 5vh;
+    max-width: 3vw;
+    max-height: 3vh;
     min-height: 3vw;
     min-width: 3vw;
     margin: 0;
@@ -104,7 +104,10 @@ header > .container {
 /* ---------------------------------------- FOOTER -----------------------*/
 footer > .container{
     background-color: #3F3F37;
-    width: 100%;
+    padding: 0 10vw ;
+    max-height: 15vh;
+    max-width: 100%;
+    bottom: 0;
 }
 
 h3#Foot {
