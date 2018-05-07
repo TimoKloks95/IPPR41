@@ -23,10 +23,12 @@
     <div class="container">
         <div class="d-flex justify-content-around">
             <div class="p-2">
-                <picture>
-                    <source media="(min-width: 780px)" srcset="images/logo.png" type="image/svg+xml">
-                    <img src="images/logo-klein.png" alt="Logo" class="img-thumbnail">
-                </picture>
+                <a href="?url=index">
+                    <picture>
+                        <source media="(min-width: 780px)" srcset="images/logo.png" type="image/svg+xml">
+                        <img src="images/logo-klein.png" alt="Logo" class="img-thumbnail">
+                    </picture>
+                </a>
             </div>
             <div class="p-2">
                 <nav class="navbar">

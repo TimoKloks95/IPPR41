@@ -14,15 +14,17 @@ body{
 header > .container {
     background-color: #3F3F37;
     padding: 0 10vw ;
-    max-height: 10vh;
+    max-height: 15vh;
     max-width: 100%;
 }
 
-header > .container > .img-thumbnail {
+.img-thumbnail {
     background-color: transparent;
     border-style: none;
-    border-radius: .25rem;
     max-width: 60%;
+    max-height: 15vh;
+    min-width: 12vw;
+    min-height: 10vh;
 }
 
 /* ----------------------------- GENERAL PAGE ----------------------------*/
