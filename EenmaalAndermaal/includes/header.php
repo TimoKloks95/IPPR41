@@ -29,10 +29,13 @@
 
 <body>
 <header>
-    <div class="container-header">
+    <div class="container">
         <div class="d-flex justify-content-around">
             <div class="p-2">
-                <img src="images/logo.png" class="img-fluid" id="logo-img" alt="logo">
+                <picture>
+                    <source media="(min-width: 730px)" srcset="images/logo.png" type="image/svg+xml">
+                    <img src="images/logo-klein.png" alt="Logo" class="img-fluid img-thumbnail">
+                </picture>
             </div>
             <div class="p-2">
                 <nav class="navbar">

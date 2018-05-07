@@ -22,6 +22,6 @@
             One of three columns
             <img src="images/wooden-closet.jpg" class="col-sm-img" alt="Wooden Closet">
         </div>
-
     </div>
+
 </div>

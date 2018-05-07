@@ -11,16 +11,14 @@ body{
 }
 
 /* ---------------------------------- HEADER -----------------------------*/
-.container-header {
-    min-width: 67vw;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
+header > .container {
     background-color: #3F3F37;
 }
 
-.p-2 {
-    color: #DE541E;
+picture  {
+    border-radius: .25rem;
+    height: auto;
+    background-color: transparent;
 }
 /* ----------------------------- GENERAL PAGE ----------------------------*/
 .container {
@@ -64,6 +62,7 @@ body{
 /* ---------------------------------------- FOOTER -----------------------*/
 footer > .container{
     background-color: #3F3F37;
+    width: 100%;
 }
 
 h3#Foot {
