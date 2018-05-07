@@ -81,6 +81,8 @@ header > .container {
 .carousel img {
     max-width: 60vw;
     max-height: 60vh;
+    min-width: 59vw;
+    min-height: 59vh;
 }
 
 
@@ -88,6 +90,10 @@ header > .container {
 .col-sm-img{
     max-height: 40vh;
     max-width: 40vw;
+}
+
+.col-sm{
+    max-width: 20vw;
 }
 
 /*----------------------------------------- LOGO -------------------------*/
