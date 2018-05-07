@@ -21,7 +21,7 @@ header > .container {
 .img-thumbnail {
     background-color: transparent;
     border-style: none;
-    max-width: 60%;
+    max-width: 15vw;
     max-height: 15vh;
     min-width: 12vw;
     min-height: 10vh;
