@@ -107,7 +107,12 @@
                         </div>
                         <div id="locatie" class="tab-pane fade">
                             <h3>Locatie</h3>
+<<<<<<< HEAD
+                            <p>Insert tekst.</p>
+                        </div>
+=======
                             <p>Insert tekst.</p></div>
+>>>>>>> 449db6f3363e120c8e2f74062bb3f49c4560933f
                     </div>
                 </div>
             </div>

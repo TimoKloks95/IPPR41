@@ -9,10 +9,11 @@
 ?>
 <footer class="footer">
     <div class="container">
-
-        <h3 class="d-flex" id="Foot">
-            © Copyright door iConcepts
-        </h3>
+              
+        <p>
+            EenmaalAnder is niet aansprakelijk voor (gevolg)schade die voortkomt uit het gebruik van deze site, dan wel uit fouten of ontbrekende functionaliteiten op deze site.
+            Copyright © 2018 iConcepts Alle rechten voorbehouden.
+        </p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
