@@ -87,8 +87,12 @@ header > .container {
 
 /* ------------------------------- OVERZICHT ---------------------------*/
 .col-sm-img{
-    max-height: 40vh;
-    max-width: 40vw;
+    max-height: 25vh;
+    max-width: 25vw;
+}
+
+.col-sm{
+    max-width: 15vw;
 }
 
 /*----------------------------------------- LOGO -------------------------*/
