@@ -31,10 +31,15 @@ body{
     position: relative;
 }
 /* --------------------------------- DETAIL PAGINA -----------------------*/
-.detailContainer {
-    max-width: 60%;
+.container-detail {
+    max-width: 35vw;
     height: auto;
     position: relative;
+}
+
+.container-detailbieden {
+    max-width: 18vw;
+    max-height: 100vh;
 }
 
 /* -- CAROUSEL -- */

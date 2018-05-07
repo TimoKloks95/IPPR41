@@ -8,7 +8,7 @@
 ?>
         <div class="container">
             <div class="d-flex flex-sm-nowrap">
-                <div class="detailContainer">
+                <div class="container-detail">
                     <h2>Titel</h2>
                     <div class="carousel">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -61,22 +61,48 @@
                         Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
                         pellentesque eu, pretium quis, sem.</p>
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">00:00</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Bieders</h6>
-                        <ul>
-                            <li>Richard - <strong>12.00</strong></li>
-                            <li>Anna - <strong>10.50</strong></li>
-                            <li>Tim - <strong>5.00</strong></li>
-                            <li>Manon - <strong>2.00</strong></li>
+                <div class="container-detailbieden">
+                    <div class="jumbotron">
+                        <h4>00:00</h4>
+                        <h6>Bieders</h6>
+                        <ul class="list-group">
+                            <li class="list-group-item">Richard - <strong>12.00</strong></li>
+                            <li class="list-group-item">Anna - <strong>10.50</strong></li>
                         </ul>
-                        <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                        </p>
-                        <a href="#!" class="card-link">Card link</a>
-                        <a href="#!" class="card-link">Another link</a>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h6 class="panel-title">
+                                        <a data-toggle="collapse" href="#bieders">Oudere biedingen</a>
+                                    </h6>
+                                </div>
+                                <div id="bieders" class="panel-collapse collapse">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                        <li class="list-group-item">...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
