@@ -27,6 +27,31 @@ header > .container {
     min-height: 10vh;
 }
 
+.menu-item{
+    max-width: 5vw;
+    max-height: 5vh;
+    min-height: 3vw;
+    min-width: 3vw;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    max-width: 7vw;
+    text-align: center;
+}
+
+.nav-link{
+    color: #DE541E;
+}
+
+.btn-outline-success {
+    color: #87B04E;
+    background: transparent none;
+    border-color: #87B04E;
+}
+
+
 /* ----------------------------- GENERAL PAGE ----------------------------*/
 .container {
     height: auto;
