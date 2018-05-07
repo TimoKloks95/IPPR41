@@ -37,47 +37,19 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                        Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-                        felis, ultricies nec,
-                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-                        vel, aliquet nec, vulputate eget, arcu.
-                        In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-                        mollis pretium. Integer tincidunt. Cras dapibus.
-                        Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor
-                        eu, consequat vitae, eleifend ac, enim.
-                        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut
-                        metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-                        Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-                    <div class="jumbotron">
-                        <ul class="nav nav-tabs">
-                            <li class="active">
-                                <a data-toggle="tab" href="#home">Active</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#meerinformatie">Meer Informatie</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#locatie">Locatie</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content">
-                            <div id="home" class="tab-pane fade in active">
-                                <h3>Home</h3>
-                                <p>Insert tekst</p>
-                            </div>
-                            <div id="meerinformatie" class="tab pane fade">
-                                <h3>Meer Informatie</h3>
-                                <p>Insert tekst</p>
-                            </div>
-                            <div id="locatie" class="tab-pane fade">
-                                <h3>Locatie</h3>
-                                <p>Insert tekst.</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                    felis, ultricies nec,
+                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+                    vel, aliquet nec, vulputate eget, arcu.
+                    In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+                    mollis pretium. Integer tincidunt. Cras dapibus.
+                    Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor
+                    eu, consequat vitae, eleifend ac, enim.
+                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut
+                    metus varius laoreet. Quisque rutrum. Aenean imperdiet.
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
                     massa.
                     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -91,27 +63,59 @@
                     Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
                     varius laoreet. Quisque rutrum. Aenean imperdiet.
                     Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-                <div id="informatieBlok">
+                <div class="jumbotron">
                     <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#informatieBlok">Active</a>
+                        <li class="active">
+                            <a data-toggle="tab" href="#home">Active</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#informatieBlok">Link</a>
+                        <li>
+                            <a data-toggle="tab" href="#meerinformatie">Meer Informatie</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#informatieBlok">Link</a>
+                        <li>
+                            <a data-toggle="tab" href="#locatie">Locatie</a>
                         </li>
                     </ul>
+                    <div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                            <h3>Home</h3>
+                            <p>Insert tekst</p>
+                        </div>
+                        <div id="meerinformatie" class="tab pane fade">
+                            <h3>Meer Informatie</h3>
+                            <p>Insert tekst</p>
+                        </div>
+                        <div id="locatie" class="tab-pane fade">
+                            <h3>Locatie</h3>
+                            <p>Insert tekst.</p>
+                        </div>
+                    </div>
                 </div>
-                <h5>
-                    Titel
-                </h5>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                    massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-                    felis, ultricies nec,
-                    pellentesque eu, pretium quis, sem.</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                felis, ultricies nec,
+                pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+                vel, aliquet nec, vulputate eget, arcu.
+                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis
+                pretium. Integer tincidunt. Cras dapibus.
+                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+                consequat vitae, eleifend ac, enim.
+                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
+                varius laoreet. Quisque rutrum. Aenean imperdiet.
+                Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
+            <div id="informatieBlok">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#informatieBlok">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#informatieBlok">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#informatieBlok">Link</a>
+                    </li>
+                </ul>
             </div>
             <div class="container-detailbieden">
                 <div class="jumbotron">
@@ -130,22 +134,6 @@
                             </div>
                             <div id="bieders" class="panel-collapse collapse">
                                 <ul class="list-group">
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
                                     <li class="list-group-item">...</li>
                                     <li class="list-group-item">...</li>
                                     <li class="list-group-item">...</li>
