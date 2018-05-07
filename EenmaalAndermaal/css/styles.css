@@ -38,6 +38,7 @@ header > .container {
 
 .nav-item{
     max-width: 7vw;
+    min-width: 7vw;
     text-align: center;
 }
 
