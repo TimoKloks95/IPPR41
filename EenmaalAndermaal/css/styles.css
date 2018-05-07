@@ -13,13 +13,18 @@ body{
 /* ---------------------------------- HEADER -----------------------------*/
 header > .container {
     background-color: #3F3F37;
+    padding: 0 10vw ;
+    max-height: 10vh;
+    max-width: 100%;
 }
 
-picture  {
-    border-radius: .25rem;
-    height: auto;
+header > .container > .img-thumbnail {
     background-color: transparent;
+    border-style: none;
+    border-radius: .25rem;
+    max-width: 60%;
 }
+
 /* ----------------------------- GENERAL PAGE ----------------------------*/
 .container {
     height: auto;
@@ -29,10 +34,15 @@ picture  {
     position: relative;
 }
 /* --------------------------------- DETAIL PAGINA -----------------------*/
-.detailContainer {
-    max-width: 60%;
+.container-detail {
+    max-width: 35vw;
     height: auto;
     position: relative;
+}
+
+.container-detailbieden {
+    max-width: 18vw;
+    max-height: 100vh;
 }
 
 /* -- CAROUSEL -- */
