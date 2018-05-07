@@ -36,7 +36,11 @@ header > .container {
     padding: 0;
 }
 
-.nav-item{
+.row{
+    align-content: center;
+}
+
+.col{
     max-width: 7vw;
     min-width: 7vw;
     text-align: center;

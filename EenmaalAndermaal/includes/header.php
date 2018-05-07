@@ -47,66 +47,68 @@
             </div>
         </div>
     </div>
-    <nav>
-        <div>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
-                        <img src="images/logo-klein.png" class="menu-item" alt="Alle veiligen">
-                        Alle
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Asia.png" class="menu-item" alt="Alle veiligen">
-                        Azië
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Books.png" class="menu-item" alt="Alle veiligen">
-                        Boeken
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Camera.png" class="menu-item" alt="Alle veiligen">
-                        Camera's
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Computer.png" class="menu-item" alt="Alle veiligen">
-                        Computers
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_History.png" class="menu-item" alt="Alle veiligen">
-                        Historie
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Jewelry.png" class="menu-item" alt="Alle veiligen">
-                        Sieraden
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Motor.png" class="menu-item" alt="Alle veiligen">
-                        Motoren
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Music.png" class="menu-item" alt="Alle veiligen">
-                        Muziek
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div>
+        <nav>
+            <div>
+                <div class="row">
+                    <div class="col">
+                        <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
+                            <img src="images/logo-klein.png" class="menu-item" alt="Alle veiligen">
+                            Alle
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
+                            <img src="images/icoontjes-EA_Asia.png" class="menu-item" alt="Alle veiligen">
+                            Azië
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
+                            <img src="images/icoontjes-EA_Books.png" class="menu-item" alt="Alle veiligen">
+                            Boeken
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
+                            <img src="images/icoontjes-EA_Camera.png" class="menu-item" alt="Alle veiligen">
+                            Camera's
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
+                            <img src="images/icoontjes-EA_Computer.png" class="menu-item" alt="Alle veiligen">
+                            Computers
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
+                            <img src="images/icoontjes-EA_History.png" class="menu-item" alt="Alle veiligen">
+                            Historie
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
+                            <img src="images/icoontjes-EA_Jewelry.png" class="menu-item" alt="Alle veiligen">
+                            Sieraden
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
+                            <img src="images/icoontjes-EA_Motor.png" class="menu-item" alt="Alle veiligen">
+                            Motoren
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="nav-link shadow p-3 mb-5 bg-light rounded" href="?url=overzicht">
+                            <img src="images/icoontjes-EA_Music.png" class="menu-item" alt="Alle veiligen">
+                            Muziek
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
 </header>
 
 
