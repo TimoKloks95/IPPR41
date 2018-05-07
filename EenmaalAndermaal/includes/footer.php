@@ -7,21 +7,11 @@
  */
 
 ?>
-<div class="footer d-flex justify-content-center">
+<footer class="footer">
+    <div class="container">
 
-    <ul>
-        <li class="list-group-item"><a href="#">#</a></li>
-        <li class="list-group-item"><a href="#">#</a></li>
-    </ul>
-    <ul>
-        <li class="list-group-item"><a href="#">#</a></li>
-        <li class="list-group-item"><a href="#">#</a></li>
-    </ul>
-    <ul>
-        <li class="list-group-item"><a href="#">#</a></li>
-        <li class="list-group-item"><a href="#">#</a></li>
-    </ul>
-        <h3 class="d-flex justify-content-sm-center" id="Foot">
+        <h3 class="d-flex" id="Foot">
             © Copyright door iConcepts
         </h3>
-</div>
+    </div>
+</footer>

@@ -32,7 +32,7 @@
     <div class="container-header">
         <div class="d-flex justify-content-around">
             <div class="p-2">
-                <img src="../images/logo.png" class="img-fluid" id="logo-img" alt="logo">
+                <img src="images/logo.png" class="img-fluid" id="logo-img" alt="logo">
             </div>
             <div class="p-2">
                 <nav class="navbar">
