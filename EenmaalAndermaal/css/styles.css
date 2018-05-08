@@ -46,9 +46,38 @@ header > .container {
     padding: 0;
 }
 
-.nav-item {
-    width: 20%;
-    position: relative;
+@media only screen and (max-width: 400px) {
+    .nav-item {
+        width: 33%;
+    }
+}
+@media only screen and (min-width: 400px) {
+    .nav-item {
+        width: 25%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .nav-item {
+        width: 20%;
+    }
+}
+@media only screen and (min-width: 760px) {
+    .nav-item {
+        width: 15%;
+    }
+}
+@media only screen and (min-width: 990px) {
+    .nav-item {
+        width: 9vw;
+        margin: .5rem;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        max-height: 12vh;
+        z-index: 10000;
+        position: sticky;
+    }
 }
 
 .btn-outline-success {
@@ -129,4 +158,25 @@ footer p {
     text-align: center;
     font-size: 0.8em;
     color: #87B04E;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:link {
+    color: #DE541E;
+}
+
+footer a:visited {
+    color: #DE541E;
+}
+
+footer a:hover {
+    color: #87B04E;
+    text-decoration: none;
+}
+
+footer ul {
+    text-align: center;
 }
