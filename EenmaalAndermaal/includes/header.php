@@ -58,7 +58,7 @@
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav mx-auto d-flex flex-row flex-wrap">
                 <li class="nav-item">
                     <a class="nav-link" href="?url=overzicht"> <span class="sr-only">(current)</span>
                         <img src="images/logo-klein.png" class="menu-item" alt="Alle veiligen">
