@@ -172,6 +172,10 @@ header > .container {
     max-width: 15vw;
 }
 
+p {
+    text-decoration: none;
+}
+
 /*----------------------------------------- LOGO -------------------------*/
 #logo-img {
     max-width: 160px;
@@ -192,6 +196,7 @@ footer >  .nav-item {
 }
 
 footer > .navbar-nav {
+    left: 25%;
 }
 
 h3#Foot {
