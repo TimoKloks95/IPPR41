@@ -9,8 +9,8 @@ function getDatabaseConnection()
 {
     $hostname = '(local)';
     $dbname = 'EenmaalAndermaal';
-    $username = 'EenmaalAndermaal';
-    $password = 'AnderEen';
+    $username = 'sa';
+    $password = 'lekkerkort';
 
     try {
         $dbh = new PDO('sqlsrv:Server=' . $hostname . ';Database=' . $dbname . ';ConnectionPooling=0', $username, $password);
