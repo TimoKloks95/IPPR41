@@ -9,12 +9,12 @@
 
 <footer class="footer">
     <div class="container">
-              
-        <ul id="link-list">
-            <li><a href="?url=index">Home</a></li>
-            <li><a href="?url=privacy">Privacy</a></li>
-            <li><a href="?url=cookies">Cookies</a></li>
-            <li><a href="?url=algemenenvoorwaarden">Algemene voorwaarden</a></li>
+
+        <ul class="navbar-nav mx-auto d-flex flex-row flex-wrap">
+            <li class="nav-item"><a href="?url=index">Home</a></li>
+            <li class="nav-item"><a href="?url=privacy">Privacy</a></li>
+            <li class="nav-item"><a href="?url=cookies">Cookies</a></li>
+            <li class="nav-item"><a href="?url=algemenenvoorwaarden">Algemene voorwaarden</a></li>
         </ul>
         <p id="copyright">
             Copyright © 2018 iConcepts Alle rechten voorbehouden.

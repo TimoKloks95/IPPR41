@@ -148,6 +148,13 @@ footer > .container {
     bottom: 0;
 }
 
+footer >  .nav-item {
+    margin: .5rem;
+}
+
+footer > .navbar-nav {
+}
+
 h3#Foot {
     white-space: pre;
     font-size: 1.3em;
@@ -175,8 +182,4 @@ footer a:visited {
 footer a:hover {
     color: #87B04E;
     text-decoration: none;
-}
-
-footer ul {
-    text-align: center;
 }
