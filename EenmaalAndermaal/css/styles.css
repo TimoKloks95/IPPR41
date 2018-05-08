@@ -159,3 +159,24 @@ footer p {
     font-size: 0.8em;
     color: #87B04E;
 }
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:link {
+    color: #DE541E;
+}
+
+footer a:visited {
+    color: #DE541E;
+}
+
+footer a:hover {
+    color: #87B04E;
+    text-decoration: none;
+}
+
+footer ul {
+    text-align: center;
+}
