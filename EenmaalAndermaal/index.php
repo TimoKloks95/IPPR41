@@ -45,6 +45,15 @@ switch ($url) {
     case 'overons':
         require_once 'overons.php';
         break;
+    case 'cookies':
+        require_once 'cookies.php';
+        break;
+    case 'privacy':
+        require_once 'privacy.php';
+        break;
+    case 'algemene-voorwaarden':
+        require_once 'algemenevoorwaarden.php';
+        break;
     default:
         if (!isset($_GET['url'])) {
             require_once 'home.php';
