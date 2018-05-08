@@ -6,161 +6,144 @@
  * Time: 15:40
  */
 ?>
-    <div class="container">
-        <div class="d-flex flex-sm-nowrap">
-            <div class="container-detail">
-                <h2>Titel</h2>
-                <div class="carousel">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="images/klopt.jpg"
-                                     data-src="holder.js/900x400?theme=social" alt="First slide">
+        <div class="container">
+            <div class="d-flex flex-sm-nowrap">
+                <div class="container-detail">
+                    <h2>---Titel Product---</h2>
+                    <div class="carousel">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="images/klopt.jpg" data-src="holder.js/900x400?theme=social" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="images/ing_011.jpg" data-src="holder.js/900x400?theme=industrial" alt="Second slide">
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/ing_011.jpg"
-                                     data-src="holder.js/900x400?theme=industrial" alt="Second slide">
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Beschrijving</h5>
+                            <p class="card-text">---product beschrijving---</p>
+                        </div>
+                    </div>
+                        <a class="btn btn-primary" data-toggle="collapse" href="#productinfo" role="button" aria-expanded="false">Product</a>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#verkoperinfo" aria-expanded="false">Verkoper</button>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="productinfo">
+                                <div class="card card-body">
+                                    <p>Titel voorwerp: </p>
+                                    <p>Rubriek: </p>
+                                    <p>Startprijs: </p>
+                                    <p>Betalingswijze: </p>
+                                    <p>Betalingsinstructies: </p>
+                                    <p>Looptijd: </p>
+                                    <p>Verzendkosten: </p>
+                                    <p>Verzendinstructies: </p>
+                                    <p>Voorwerpnummer: </p>
+                                </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                           data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                           data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="verkoperinfo">
+                                <div class="card card-body">
+                                    <p>Verkoper: </p>
+                                    <p>Locatie: </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <p>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                        In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-                        Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-                        Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-                    <div class="jumbotron">
-                        <ul class="nav nav-tabs">
-                            <li class="active">
-                                <a data-toggle="tab" href="#home">Active</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#meerinformatie">Meer Informatie</a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#locatie">Locatie</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content">
-                            <div id="home" class="tab-pane fade in active">
-                                <h3>Home</h3>
-                                <p>Insert tekst</p>
-                            </div>
-                            <div id="meerinformatie" class="tab pane fade">
-                                <h3>Meer Informatie</h3>
-                                <p>Insert tekst</p>
-                            </div>
-                            <div id="locatie" class="tab-pane fade">
-                                <h3>Locatie</h3>
-                                <p>Insert tekst.</p>
-                            </div>
                 </div>
+                <div class="container-detailbieden">
 
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                    massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-                    felis, ultricies nec,
-                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-                    vel, aliquet nec, vulputate eget, arcu.
-                    In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis
-                    pretium. Integer tincidunt. Cras dapibus.
-                    Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-                    consequat vitae, eleifend ac, enim.
-                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
-                    varius laoreet. Quisque rutrum. Aenean imperdiet.
-                    Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-                <div class="jumbotron">
-                    <ul class="nav nav-tabs">
-                        <li class="active">
-                            <a data-toggle="tab" href="#home">Active</a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#meerinformatie">Meer Informatie</a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#locatie">Locatie</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="home" class="tab-pane fade in active">
-                            <h3>Home</h3>
-                            <p>Insert tekst</p>
-                        </div>
-                        <div id="meerinformatie" class="tab pane fade">
-                            <h3>Meer Informatie</h3>
-                            <p>Insert tekst</p>
-                        </div>
-                        <div id="locatie" class="tab-pane fade">
-                            <h3>Locatie</h3>
-<<<<<<< HEAD
-                            <p>Insert tekst.</p>
-                        </div>
-=======
-                            <p>Insert tekst.</p></div>
->>>>>>> 449db6f3363e120c8e2f74062bb3f49c4560933f
-                    </div>
-                </div>
-            </div>
-            <div id="informatieBlok">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#informatieBlok">Active</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#informatieBlok">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#informatieBlok">Link</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="container-detailbieden">
-                <div class="jumbotron">
-                    <h4>00:00</h4>
-                    <h6>Bieders</h6>
-                    <ul class="list-group">
-                        <li class="list-group-item">Richard - <strong>12.00</strong></li>
-                        <li class="list-group-item">Anna - <strong>10.50</strong></li>
-                    </ul>
-                    <div class="panel-group">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h6 class="panel-title">
-                                    <a data-toggle="collapse" href="#bieders">Oudere biedingen</a>
-                                </h6>
-                            </div>
-                            <div id="bieders" class="panel-collapse collapse">
-                                <ul class="list-group">
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                    <li class="list-group-item">...</li>
-                                </ul>
+                        <h4>00:00</h4>
+                        <button type="button" class="btn btn-primary btn-block">Log in en bied mee!</button>
+                        <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Gebruiker</th>
+                                        <th scope="col">Bod</th>
+                                        <th scope="col">Datum</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Markie4</td>
+                                        <td>$12</td>
+                                        <td>04-05-2018 10:46:07</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob5</td>
+                                        <td>$8</td>
+                                        <td>03-05-2018 11:11:56</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Larry4</td>
+                                <td>$6</td>
+                                <td>03-05-2018 10:12:39</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <a class="btn btn-primary" id="meerbiedingenknop" data-toggle="collapse" href="#meerbieders" role="button" aria-expanded="false">Meer biedingen</a>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="meerbieders">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Gebruiker</th>
+                                            <th scope="col">Bod</th>
+                                            <th scope="col">Datum</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Markie4</td>
+                                            <td>$12</td>
+                                            <td>04-05-2018 10:46:07</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Jacob5</td>
+                                            <td>$8</td>
+                                            <td>03-05-2018 11:11:56</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Larry4</td>
+                                            <td>$6</td>
+                                            <td>03-05-2018 10:12:39</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </body>
-    </html>
+</html>
 
 <?php
 /**
