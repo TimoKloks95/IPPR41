@@ -193,6 +193,8 @@ header > .container {
 .carousel img {
     max-width: 60vw;
     max-height: 60vh;
+    min-height: 59vh;
+    min-width: 59vw;
 }
 
 /* ------------------------------- OVERZICHT ---------------------------*/
