@@ -6,8 +6,8 @@
  * Time: 11:39
  */
 function getOverzicht() {
-    $getOverzicht = 'SELECT V.Voorwerpnummer, V.Titel, V.Beschrijving, VA.Afbeelding
-FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerpnummer';
+    $getOverzicht = 'SELECT V.Titel, V.Beschrijving, VA.Afbeelding
+      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerpnummer';
     $dbh = getDatabaseConnection();
     $stmt = $dbh->prepare($getOverzicht);
     $stmt->execute();
@@ -18,7 +18,7 @@ FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorw
 
 function getRubriekIcoon() {
     $getRubriekIcoon = 'SELECT R.Rubrieknaam, RA.Afbeelding
-FROM Rubriek R inner join Rubriek_afbeelding RA on R.Rubrieknummer = RA.Rubrieknummer';
+      FROM Rubriek R inner join Rubriek_afbeelding RA on R.Rubrieknummer = RA.Rubrieknummer';
     $dbh = getDatabaseConnection();
     $stmt = $dbh->prepare($getRubriekIcoon);
     $stmt->execute();
@@ -26,3 +26,6 @@ FROM Rubriek R inner join Rubriek_afbeelding RA on R.Rubrieknummer = RA.Rubriekn
     return $getRubriekIcoon;
 }
 
+function getDetails() {
+
+}
