@@ -46,6 +46,15 @@ header > .container {
     padding: 0;
 }
 
+.border{
+    border-style: hidden;
+}
+
+
+.nav-link:hover{
+    border: #3F3F37 1px;
+}
+
 @media only screen and (max-width: 400px) {
     .nav-item {
         width: 33%;
@@ -66,7 +75,15 @@ header > .container {
         width: 15%;
     }
 }
+
 @media only screen and (min-width: 990px) {
+    .nav-item {
+        width: 11%;
+        margin: .5rem;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
     .nav-item {
         width: 9vw;
         margin: .5rem;
@@ -76,8 +93,25 @@ header > .container {
         width: 100%;
         max-height: 12vh;
         z-index: 10000;
-        position: sticky;
+        margin-bottom: 2em;
     }
+}
+
+.nav-item{
+    border-radius: 5px;
+    border: 0.1rem solid transparent;
+}
+
+.nav-item:hover{
+    border-radius: 5px;
+    border: 0.1rem solid #3F3F37;
+
+}
+
+.current-item {
+    border-radius: 5px;
+    border: 0.1rem solid #3F3F37;
+
 }
 
 .btn-outline-success {
@@ -87,7 +121,7 @@ header > .container {
 }
 
 .menu-item-h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 /* ----------------------------- GENERAL PAGE ----------------------------*/
