@@ -33,8 +33,8 @@ header > .container {
 
 .menu-item {
     max-width: 5vw;
-    max-height: 5vh;
-    min-height: 5vw;
+    max-height: 4vh;
+    min-height: 4vw;
     min-width: 5vw;
     margin: 0;
     padding: 0;
