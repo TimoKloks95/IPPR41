@@ -8,36 +8,60 @@
 
 ?>
 
-<div class="container">
-    <div class="row justify-content-md-center">
-        <div class="col-sm shadow p-3 mb-5 bg-light rounded">
-            <a href="?url=detailpagina">
-                <img src="images/Crow-Skull.png" class="col-sm-img" alt="Crow Skull">
-                <h2>Titel</h2>
-                <p>Omschrijving. Blahblkajfi uhwesj hqiueyr hksjdhf hiquwy fhfakh</p>
-            </a>
+<div class="container bg-light">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="?url=detailpagina">
+                    <img src="images/Crow-Skull.png" alt="Kraaien schedel" style="width:100%">
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <div class="carousel-caption">
+                        <h1>Titel</h1>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="col-sm shadow p-3 mb-5 bg-light rounded">
-            <a href="?url=detailpagina">
-                <img src="images/shoes.jpg" class="col-sm-img" alt="Shoes">
-                <h2>Titel</h2>
-                <p>Omschrijving. Blahblkajfi uhwesj hqiueyr hksjdhf hiquwy fhfakh</p>
-            </a>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="?url=detailpagina">
+                    <img src="images/make-up.jpg" alt="Make-up" style="width:100%">
+                    <div class="carousel-caption">
+                        <h1>Titel</h1>
+                    </div>
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="col-sm shadow p-3 mb-5 bg-light rounded">
-            <a href="?url=detailpagina">
-                <img src="images/wooden-closet.jpg" class="col-sm-img" alt="Wooden Closet">
-                <h2>Titel</h2>
-                <p>Omschrijving. Blahblkajfi uhwesj hqiueyr hksjdhf hiquwy fhfakh</p>
-            </a>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="?url=detailpagina">
+                    <img src="images/shoes.jpg" alt="Schoenen" style="width:100%">
+                    <div class="carousel-caption">
+                        <h1>Titel</h1>
+                    </div>
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="col-sm shadow p-3 mb-5 bg-light rounded">
-            <a href="?url=detailpagina">
-                <img src="images/make-up.jpg" class="col-sm-img" alt="Wooden Closet">
-                <h2>Titel</h2>
-                <p>Omschrijving. Blahblkajfi uhwesj hqiueyr hksjdhf hiquwy fhfakh</p>
-            </a>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="?url=detailpagina">
+                    <img src="images/wooden-closet.jpg" alt="Houten kast" style="width:100%">
+                    <div class="carousel-caption">
+                        <h1>Titel</h1>
+                    </div>
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
-
 </div>
+

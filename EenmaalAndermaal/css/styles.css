@@ -176,6 +176,22 @@ p {
     text-decoration: none;
 }
 
+.carousel-caption{
+    color: #3F3F37;
+    background: white;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border-bottom: 0.1rem solid #3F3F37;
+    box-shadow: 2px 2px 4px #000000;;
+}
+
+.thumbnail{
+    border-radius: 5px;
+    border: 0.1rem solid #3F3F37;
+    margin-bottom: 1rem;
+}
+
 /*----------------------------------------- LOGO -------------------------*/
 #logo-img {
     max-width: 160px;
@@ -196,7 +212,6 @@ footer >  .nav-item {
 }
 
 footer > .navbar-nav {
-    left: 25%;
 }
 
 h3#Foot {
