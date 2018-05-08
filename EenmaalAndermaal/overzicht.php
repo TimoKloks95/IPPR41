@@ -4,13 +4,12 @@
  * User: Ilona
  * Date: 26/04/2018
  * Time: 15:40
- * <<<<<<< HEAD
  */
 
 ?>
 
 <div class="container">
-    <div class="row justify-content-md-cente">
+    <div class="row justify-content-md-center">
         <div class="col-sm shadow p-3 mb-5 bg-light rounded">
             <a href="?url=detailpagina">
                 <img src="images/Crow-Skull.png" class="col-sm-img" alt="Crow Skull">
