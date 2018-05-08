@@ -36,7 +36,7 @@ header > .container {
     min-height: 10vh;
 }
 
-.menu-item {
+.menu-item-img {
     max-width: 5vw;
     max-height: 4vh;
     min-height: 4vw;
@@ -100,6 +100,11 @@ header > .container {
         z-index: 10000;
         margin-bottom: 2rem;
     }
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
 }
 
 .nav-item{

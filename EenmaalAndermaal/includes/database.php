@@ -7,7 +7,7 @@
  */
 function getDatabaseConnection()
 {
-    $hostname = 'ftp://ftp.iproject.icasites.nl';
+    $hostname = 'http://iproject41.icasites.nl';
     $dbname = 'mssql.iproject.icasites.nl';
     $username = 'iproject41';
     $password = 'NqszoMdujk';

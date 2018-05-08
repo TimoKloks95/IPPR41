@@ -58,59 +58,58 @@
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto d-flex flex-row flex-wrap">
+            <ul class="navbar-nav mx-auto flex-row flex-wrap">
                 <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'all'){ ?>class="current-item" <?php }?>>
                     <a class="nav-link current-item" href="?url=overzicht">
-                        <img src="images/logo-klein.png" class="menu-item" alt="Alle veiligen">
+                        <img src="images/logo-klein.png" class="menu-item-img" alt="Alle veiligen">
                         <h3 class="menu-item-h3">Alle</h3>
                     </a>
                 </li>
-
                 <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'asia'){ ?>class="current-item" <?php }?>>
                     <a class="nav-link" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Asia.png" class="menu-item" alt="Aziatische veiligen">
+                        <img src="images/icoontjes-EA_Asia.png" class="menu-item-img" alt="Aziatische veiligen">
                         <h3 class="menu-item-h3">Azië</h3>
                     </a>
                 </li>
                 <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'book'){ ?>class="current-item" <?php }?>>
                     <a class="nav-link" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Books.png" class="menu-item" alt="Boeken veiligen">
+                        <img src="images/icoontjes-EA_Books.png" class="menu-item-img" alt="Boeken veiligen">
                         <h3 class="menu-item-h3">Boeken</h3>
                     </a>
                 </li>
                 <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'cam'){ ?>class="current-item" <?php }?>>
                     <a class="nav-link" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Camera.png" class="menu-item" alt="Camera veiligen">
+                        <img src="images/icoontjes-EA_Camera.png" class="menu-item-img" alt="Camera veiligen">
                         <h3 class="menu-item-h3">Camera's</h3>
                     </a>
                 </li>
                 <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'pc'){ ?>class="current-item" <?php }?>>
                     <a class="nav-link" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Computer.png" class="menu-item" alt="Computer veiligen">
+                        <img src="images/icoontjes-EA_Computer.png" class="menu-item-img" alt="Computer veiligen">
                         <h3 class="menu-item-h3">Computers</h3>
                     </a>
                 </li>
                 <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'hist'){ ?>class="current-item" <?php }?>>
                     <a class="nav-link" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_History.png" class="menu-item" alt="Historie veiligen">
+                        <img src="images/icoontjes-EA_History.png" class="menu-item-img" alt="Historie veiligen">
                         <h3 class="menu-item-h3">Historie</h3>
                     </a>
                 </li>
                 <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'jewl'){ ?>class="current-item" <?php }?>>
                     <a class="nav-link" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Jewelry.png" class="menu-item" alt="Sieraden veiligen">
+                        <img src="images/icoontjes-EA_Jewelry.png" class="menu-item-img" alt="Sieraden veiligen">
                         <h3 class="menu-item-h3">Sieraden</h3>
                     </a>
                 </li>
                 <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'motor'){ ?>class="current-item" <?php }?>>
                     <a class="nav-link" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Motor.png" class="menu-item" alt="Motoren veiligen">
+                        <img src="images/icoontjes-EA_Motor.png" class="menu-item-img" alt="Motoren veiligen">
                         <h3 class="menu-item-h3">Motoren</h3>
                     </a>
                 </li>
                 <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'music'){ ?>class="current-item" <?php }?>>
                     <a class="nav-link" href="?url=overzicht">
-                        <img src="images/icoontjes-EA_Music.png" class="menu-item" alt="Muziek veiligen">
+                        <img src="images/icoontjes-EA_Music.png" class="menu-item-img" alt="Muziek veiligen">
                         <h3 class="menu-item-h3">Muziek</h3>
                     </a>
                 </li>
