@@ -21,7 +21,7 @@
                 <a href="?url=cookies">Cookies</a>
             </li>
             <li class="nav-item">
-                <a href="?url=algemenenvoorwaarden">Algemene voorwaarden</a>
+                <a href="?url=voorwaarden">Algemene voorwaarden</a>
             </li>
         </ul>
         <p id="copyright">
