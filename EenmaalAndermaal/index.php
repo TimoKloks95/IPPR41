@@ -51,7 +51,7 @@ switch ($url) {
     case 'privacy':
         require_once 'privacy.php';
         break;
-    case 'algemene-voorwaarden':
+    case 'voorwaarden':
         require_once 'algemenevoorwaarden.php';
         break;
     default:
