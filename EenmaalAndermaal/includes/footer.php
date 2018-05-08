@@ -5,13 +5,12 @@
  * Date: 24-4-2018
  * Time: 13:31
  */
-
 ?>
+
 <footer class="footer">
     <div class="container">
               
-        <p>
-            EenmaalAnder is niet aansprakelijk voor (gevolg)schade die voortkomt uit het gebruik van deze site, dan wel uit fouten of ontbrekende functionaliteiten op deze site.
+        <p id="copyright">
             Copyright © 2018 iConcepts Alle rechten voorbehouden.
         </p>
     </div>
