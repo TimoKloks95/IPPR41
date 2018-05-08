@@ -7,10 +7,10 @@
  */
 function getDatabaseConnection()
 {
-    $hostname = '(local)';
-    $dbname = 'EenmaalAndermaal';
-    $username = 'sa';
-    $password = 'lekkerkort';
+    $hostname = 'ftp://ftp.iproject.icasites.nl';
+    $dbname = 'mssql.iproject.icasites.nl';
+    $username = 'iproject41';
+    $password = 'NqszoMdujk';
 
     try {
         $dbh = new PDO('sqlsrv:Server=' . $hostname . ';Database=' . $dbname . ';ConnectionPooling=0', $username, $password);
