@@ -155,7 +155,7 @@ header > .container {
     color: #3F3F37;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #DE541E;
     border: none;
 }
@@ -282,12 +282,14 @@ p {
 .carousel-caption {
     color: #3F3F37;
     border: 0.15rem solid #87B04E;
+    background: rgba(135, 176, 78, 0.5);
+
     font-weight: bolder;
-    background: transparent;
     height: 3vh;
     border-radius: 5px;
     position: relative;
     left: 0;
+    margin-top: 1rem;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -303,8 +305,8 @@ p {
     margin: 0.5rem;
 }
 
-main>.card:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+main > .card:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-img-top {
@@ -321,7 +323,7 @@ main>.card:hover {
 
 /* ---------------------------------------- FOOTER -----------------------*/
 
-.generic-anchor, .generic-anchor:visited  {
+.generic-anchor, .generic-anchor:visited {
     color: #87B04E;
 }
 
@@ -359,7 +361,6 @@ footer {
 .footer-list-anchor {
     font: 1rem "Open Sans", sans-serif;
 }
-
 
 .footer-bottom-section {
     width: 100%;
