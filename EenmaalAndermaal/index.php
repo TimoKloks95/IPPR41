@@ -30,7 +30,7 @@ switch ($url) {
     case 'login':
         require_once 'login.php';
         break;
-    case 'register':
+    case 'registreer':
         require_once 'registreer.php';
         break;
     case 'logout':

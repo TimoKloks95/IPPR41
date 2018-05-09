@@ -7,27 +7,38 @@
  */
 ?>
 
-<footer class="footer">
-    <div class="container">
+<footer class="flex-rw">
 
-        <ul class="navbar-nav mx-auto flex-row flex-wrap">
-            <li class="nav-item">
-                <a href="?url=index">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="?url=privacy">Privacy</a>
-            </li>
-            <li class="nav-item">
-                <a href="?url=cookies">Cookies</a>
-            </li>
-            <li class="nav-item">
-                <a href="?url=voorwaarden">Algemene voorwaarden</a>
-            </li>
-        </ul>
-        <p id="copyright">
-            Copyright © 2018 iConcepts Alle rechten voorbehouden.
-        </p>
-    </div>
+    <ul class="footer-list-top">
+        <li><h4 class="footer-list-header">Over Ons</h4></li>
+
+        <li><a href='?url=overons' class="generic-anchor footer-list-anchor">Over ons</a></li>
+        <li><a href='?url=werking' class="generic-anchor footer-list-anchor">Hoe werkt het</a></li>
+        <li><a href='?url=vacatures' class="generic-anchor footer-list-anchor">Vacatures</a></li>
+    </ul>
+    <ul class="footer-list-top">
+        <li><h4 class="footer-list-header">Klantenservice</h4></li>
+
+        <li><a href='?url=registreer' class="generic-anchor footer-list-anchor">Registreer</a></li>
+        <li><a href='?url=login' class="generic-anchor footer-list-anchor">Login</a></li>
+        <li><a href='?url=contact' class="generic-anchor footer-list-anchor">Contact</a></li>
+    </ul>
+    <ul class="footer-list-top">
+        <li><h4 class="footer-list-header">Direct naar</h4></li>
+
+        <li><a href='?url=overzicht' class="generic-anchor footer-list-anchor">Overzicht alle veilingen</a></li>
+        <li><a href='?url=veilingplaatsen' class="generic-anchor footer-list-anchor">Zelf iets veilen</a></li>
+        <li><a href='?url=partner' class="generic-anchor footer-list-anchor">Partners</a></li>
+    </ul>
+
+    <section class="footer-bottom-section flex-rw">
+        <div class="footer-bottom-wrapper">
+            <a class="generic-anchor" rel="nofollow">© iConcepts 2016 - 2018</a>
+            <a href="?url=privacy" class="generic-anchor" rel="nofollow">Privacy</a> |
+            <a href="?url=voorwaarden" class="generic-anchor" rel="nofollow">Voorwaarden</a> |
+            <a href="?url=cookies" class="generic-anchor" rel="nofollow">Cookies</a>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
