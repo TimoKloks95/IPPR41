@@ -282,6 +282,7 @@ p {
 .carousel-caption {
     color: #3F3F37;
     border: 0.15rem solid #87B04E;
+    font-weight: bolder;
     background: transparent;
     height: 3vh;
     border-radius: 5px;
