@@ -18,6 +18,11 @@ h2 {
     color: #3F3F37;
 }
 
+a, a:hover {
+    text-decoration: none;
+    color: #3F3F37;
+}
+
 /* ---------------------------------- HEADER -----------------------------*/
 header > .container {
     background-color: #3F3F37;
@@ -268,8 +273,6 @@ p {
     background: #87B04E;
     height: 3vh;
     border-radius: 5px;
-    border-bottom: 0.1rem solid #3F3F37;
-    box-shadow: 2px 2px 4px #000000;;
     position: relative;
     left: 0;
     padding-top: 10px;
@@ -287,8 +290,14 @@ p {
     margin: 0.5rem;
 }
 
+main>.card:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .card-img-top {
-    height: 100%;
+    min-height: 20rem;
+    max-height: 20rem;
+    width: 100%;
 }
 
 /*----------------------------------------- LOGO -------------------------*/
