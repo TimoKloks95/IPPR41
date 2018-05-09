@@ -149,6 +149,17 @@ header > .container {
     position: relative;
 }
 
+.btn-primary {
+    background: transparent;
+    border: 1px solid #DE541E;
+    color: #3F3F37;
+}
+
+.btn:hover{
+    background-color: #DE541E;
+    border: none;
+}
+
 .card-text {
     display: none;
 }
