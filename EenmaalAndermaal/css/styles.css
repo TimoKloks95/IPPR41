@@ -281,7 +281,8 @@ p {
 
 .carousel-caption {
     color: #3F3F37;
-    background: #87B04E;
+    border: 0.15rem solid #87B04E;
+    background: transparent;
     height: 3vh;
     border-radius: 5px;
     position: relative;
