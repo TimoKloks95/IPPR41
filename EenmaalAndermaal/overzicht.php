@@ -96,7 +96,7 @@
                         <br>
                         <br>
                     </p>
-                    <a href="?url=detailpagina" class="btn btn-primary">Meer info</a>
+                    <button type="" class="btn btn-primary">Meer info</button>
                 </div>
             </div>
         </a>
@@ -114,7 +114,8 @@
                         <br>
                         <br>
                     </p>
-                    <a href="?url=detailpagina" class="btn btn-primary">Meer info</a>
+                </div>
+                    <button type="button" class="btn btn-primary">Meer info</button>
                 </div>
             </div>
         </a>

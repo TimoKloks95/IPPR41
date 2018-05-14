@@ -36,8 +36,8 @@
             <div class="p-2">
                 <nav class="navbar">
                     <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Zoeken">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Zoeken</button>
+                        <input class="form-control" type="text" placeholder="Zoeken">
+                        <button class="btn" type="submit"><img class="loop" src="images/loop.png" alt="Loop"></button>
                     </form>
                 </nav>
             </div>
@@ -56,58 +56,71 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-
+        <!-- icoontjes -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline">
+                <input class="form-control" type="text" placeholder="Zoeken">
+                <button class="btn" type="submit"><img class="loop" src="images/loop.png" alt="Loop"></button>
+            </form>
             <ul class="navbar-nav mx-auto flex-row flex-wrap">
-                <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'all'){ ?>class="current-item" <?php }?>>
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'all'){ ?>class="current-item" <?php } ?>>
                     <a class="nav-link current-item" href="?url=overzicht">
                         <img src="images/logo-klein.png" class="menu-item-img" alt="Alle veiligen">
                         <h3 class="menu-item-h3">Alle</h3>
                     </a>
                 </li>
-                <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'asia'){ ?>class="current-item" <?php }?>>
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'asia'){ ?>class="current-item" <?php } ?>>
                     <a class="nav-link" href="?url=overzicht">
                         <img src="images/icoontjes-EA_Asia.png" class="menu-item-img" alt="Aziatische veiligen">
                         <h3 class="menu-item-h3">Azië</h3>
                     </a>
                 </li>
-                <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'book'){ ?>class="current-item" <?php }?>>
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'book'){ ?>class="current-item" <?php } ?>>
                     <a class="nav-link" href="?url=overzicht">
                         <img src="images/icoontjes-EA_Books.png" class="menu-item-img" alt="Boeken veiligen">
                         <h3 class="menu-item-h3">Boeken</h3>
                     </a>
                 </li>
-                <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'cam'){ ?>class="current-item" <?php }?>>
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'cam'){ ?>class="current-item" <?php } ?>>
                     <a class="nav-link" href="?url=overzicht">
                         <img src="images/icoontjes-EA_Camera.png" class="menu-item-img" alt="Camera veiligen">
                         <h3 class="menu-item-h3">Camera's</h3>
                     </a>
                 </li>
-                <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'pc'){ ?>class="current-item" <?php }?>>
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'pc'){ ?>class="current-item" <?php } ?>>
                     <a class="nav-link" href="?url=overzicht">
                         <img src="images/icoontjes-EA_Computer.png" class="menu-item-img" alt="Computer veiligen">
                         <h3 class="menu-item-h3">Computers</h3>
                     </a>
                 </li>
-                <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'hist'){ ?>class="current-item" <?php }?>>
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'hist'){ ?>class="current-item" <?php } ?>>
                     <a class="nav-link" href="?url=overzicht">
                         <img src="images/icoontjes-EA_History.png" class="menu-item-img" alt="Historie veiligen">
                         <h3 class="menu-item-h3">Historie</h3>
                     </a>
                 </li>
-                <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'jewl'){ ?>class="current-item" <?php }?>>
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'jewl'){ ?>class="current-item" <?php } ?>>
                     <a class="nav-link" href="?url=overzicht">
                         <img src="images/icoontjes-EA_Jewelry.png" class="menu-item-img" alt="Sieraden veiligen">
                         <h3 class="menu-item-h3">Sieraden</h3>
                     </a>
                 </li>
-                <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'motor'){ ?>class="current-item" <?php }?>>
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'motor'){ ?>class="current-item" <?php } ?>>
                     <a class="nav-link" href="?url=overzicht">
                         <img src="images/icoontjes-EA_Motor.png" class="menu-item-img" alt="Motoren veiligen">
                         <h3 class="menu-item-h3">Motoren</h3>
                     </a>
                 </li>
-                <li class="nav-item" <?php if(isset($_GET['url']) && $_GET['url'] == 'music'){ ?>class="current-item" <?php }?>>
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'music'){ ?>class="current-item" <?php } ?>>
                     <a class="nav-link" href="?url=overzicht">
                         <img src="images/icoontjes-EA_Music.png" class="menu-item-img" alt="Muziek veiligen">
                         <h3 class="menu-item-h3">Muziek</h3>
