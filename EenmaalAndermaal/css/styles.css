@@ -292,16 +292,16 @@ header > .container {
 
 .carousel img {
     max-width: 55vh;
-    max-height: 45vh;
-    min-height: 45vh;
+    max-height: 60vh;
+    min-height: 60vh;
     min-width: 55vh;
     margin: 0 auto;
 }
 
 .carousel {
     max-width: 55vw;
-    max-height: 45vh;
-    min-height: 45vh;
+    max-height: 60vh;
+    min-height: 60vh;
     min-width: 55vw;
 }
 
@@ -312,6 +312,7 @@ header > .container {
 
 .carousel-control-prev, .carousel-control-next {
     background-color: #3F3F37;
+    max-width: 2rem;
 }
 
 /* ------------------------------- OVERZICHT ---------------------------*/
