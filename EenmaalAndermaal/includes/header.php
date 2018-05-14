@@ -62,13 +62,33 @@
                 <button class="btn" type="submit"><img class="loop" src="images/loop.png" alt="Loop"></button>
             </form>
             <ul class="navbar-nav mx-auto flex-row flex-wrap">
+<<<<<<< HEAD
                 <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'all') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
                     <a class="nav-link" href="?url=overzicht&cat=all">
+=======
+
+                <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'all') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+                    <a class="nav-link" href="?url=overzicht&cat=all">
+
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'all'){ ?>class="current-item" <?php } ?>>
+                    <a class="nav-link current-item" href="?url=overzicht&cat=all">
+
+>>>>>>> f414be51751ea933284ad5028c5bffb1b4bb5b1e
                         <img src="images/logo-klein.png" class="menu-item-img" alt="Alle veiligen">
                         <h3 class="menu-item-h3">Alle</h3>
                     </a>
                 </li>
+<<<<<<< HEAD
                 <li class="nav-item <?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Azie') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+=======
+
+                <li class="nav-item <?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Azie') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'Azie'){ ?>class="current-item" <?php } ?>>
+
+>>>>>>> f414be51751ea933284ad5028c5bffb1b4bb5b1e
                     <a class="nav-link" href="?url=overzicht&cat=Azie">
                         <img src="images/icoontjes-EA_Asia.png" class="menu-item-img" alt="Aziatische veiligen">
                         <h3 class="menu-item-h3">Azië</h3>
@@ -76,6 +96,13 @@
                 </li>
 
                 <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Boeken') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+<<<<<<< HEAD
+=======
+
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'Boeken'){ ?>class="current-item" <?php } ?>>
+
+>>>>>>> f414be51751ea933284ad5028c5bffb1b4bb5b1e
                     <a class="nav-link" href="?url=overzicht&cat=Boeken">
                         <img src="images/icoontjes-EA_Books.png" class="menu-item-img" alt="Boeken veiligen">
                         <h3 class="menu-item-h3">Boeken</h3>
@@ -83,6 +110,13 @@
                 </li>
 
                 <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Cameras') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+<<<<<<< HEAD
+=======
+
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'Cameras'){ ?>class="current-item" <?php } ?>>
+
+>>>>>>> f414be51751ea933284ad5028c5bffb1b4bb5b1e
                     <a class="nav-link" href="?url=overzicht&cat=Cameras">
                         <img src="images/icoontjes-EA_Camera.png" class="menu-item-img" alt="Camera veiligen">
                         <h3 class="menu-item-h3">Camera's</h3>
@@ -90,30 +124,73 @@
                 </li>
 
                 <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Computers') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+<<<<<<< HEAD
+=======
+
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'Computers'){ ?>class="current-item" <?php } ?>>
+
+>>>>>>> f414be51751ea933284ad5028c5bffb1b4bb5b1e
                     <a class="nav-link" href="?url=overzicht&cat=Computers">
                         <img src="images/icoontjes-EA_Computer.png" class="menu-item-img" alt="Computer veiligen">
                         <h3 class="menu-item-h3">Computers</h3>
                     </a>
                 </li>
+<<<<<<< HEAD
                 <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Historie') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+=======
+
+                <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Historie') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'Historie'){ ?>class="current-item" <?php } ?>>
+
+>>>>>>> f414be51751ea933284ad5028c5bffb1b4bb5b1e
                     <a class="nav-link" href="?url=overzicht&cat=Historie">
                         <img src="images/icoontjes-EA_History.png" class="menu-item-img" alt="Historie veiligen">
                         <h3 class="menu-item-h3">Historie</h3>
                     </a>
                 </li>
+<<<<<<< HEAD
                 <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Sieraden') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+=======
+
+                <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Sieraden') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'Sieraden'){ ?>class="current-item" <?php } ?>>
+
+>>>>>>> f414be51751ea933284ad5028c5bffb1b4bb5b1e
                     <a class="nav-link" href="?url=overzicht&cat=Sieraden">
                         <img src="images/icoontjes-EA_Jewelry.png" class="menu-item-img" alt="Sieraden veiligen">
                         <h3 class="menu-item-h3">Sieraden</h3>
                     </a>
                 </li>
+<<<<<<< HEAD
                 <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Motoren') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+=======
+
+                <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Motoren') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'motoren'){ ?>class="current-item" <?php } ?>>
+
+>>>>>>> f414be51751ea933284ad5028c5bffb1b4bb5b1e
                     <a class="nav-link" href="?url=overzicht&cat=Motoren">
                         <img src="images/icoontjes-EA_Motor.png" class="menu-item-img" alt="Motoren veiligen">
                         <h3 class="menu-item-h3">Motoren</h3>
                     </a>
                 </li>
+<<<<<<< HEAD
                 <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Muziek') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+=======
+
+                <li class="nav-item<?php if(isset($_GET['url']) && isset($_GET['cat'])) { if($_GET['cat'] == 'Muziek') { ?> current-item <?php } else {?> noncurrent-item <?php }}?>">
+
+                <li class="nav-item"
+                    <?php if (isset($_GET['url']) && $_GET['url'] == 'Muziek'){ ?>class="current-item" <?php } ?>>
+
+>>>>>>> f414be51751ea933284ad5028c5bffb1b4bb5b1e
                     <a class="nav-link" href="?url=overzicht&cat=Muziek">
                         <img src="images/icoontjes-EA_Music.png" class="menu-item-img" alt="Muziek veiligen">
                         <h3 class="menu-item-h3">Muziek</h3>
