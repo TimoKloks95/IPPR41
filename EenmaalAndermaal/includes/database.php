@@ -7,10 +7,18 @@
  */
 function getDatabaseConnection()
 {
-    $hostname = 'localhost';
-    $dbname = 'EenmaalAndermaal';
-    $username = 'sa';
-    $password = 'lekkerkort';
+    $local = true;
+    if($local = false) {
+        $hostname = 'mssql.iproject.icasites.nl';
+        $dbname = 'iproject41';
+        $username = 'iproject41';
+        $password = 'NqszoMdujk';
+    } else {
+        $hostname = 'localhost';
+        $dbname = 'EenmaalAndermaal';
+        $username = 'sa';
+        $password = 'lekkerkort';
+    }
 
     try {
         $dbh = new PDO('sqlsrv:Server=' . $hostname . ';Database=' . $dbname . ';ConnectionPooling=0', $username, $password);
