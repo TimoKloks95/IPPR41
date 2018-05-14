@@ -101,12 +101,10 @@
                 </div>
             </div>
         </a>
-        <a href="?url=detailpagina">
-=======
         <?php
         $categorie = $_GET['cat'];
         $dbh = getDatabaseConnection();
-        if($categorie == 'all') {
+        if ($categorie == 'all') {
             $returnQuery = $dbh->query("SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijd
       ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
       FROM Voorwerp V inner join Voorwer
@@ -123,7 +121,7 @@
         }
 
 
-        while($row = $returnQuery -> fetch()) {
+        while ($row = $returnQuery->fetch()) {
             $startprijs = $row['startprijs'];
             $begindag = $row['begindag'];
             $begintijd = $row['begintijd'];
@@ -134,12 +132,12 @@
             echo '
             <a href="?url=detailpagina">
             <div class="card">
-                <img class="card-img-top" src="'.$afbeelding.'" alt="Card image cap">
+                <img class="card-img-top" src="' . $afbeelding . '" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title carousel-caption">'.$titel.'</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Startprijs: $'.$startprijs.'</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">Startdatum: '.$begindag." ".$begintijd.'</h6>
-                    <p class="card-text">'.$beschrijving.'
+                    <h5 class="card-title carousel-caption">' . $titel . '</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Startprijs: $' . $startprijs . '</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Startdatum: ' . $begindag . " " . $begintijd . '</h6>
+                    <p class="card-text">' . $beschrijving . '
                         <br>
                         <br>
                     </p>
