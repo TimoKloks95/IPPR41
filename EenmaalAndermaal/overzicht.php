@@ -17,14 +17,14 @@
         if($categorie == 'all') {
             $returnQuery = $dbh->query("SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijd
       ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
-      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerpnummer 
+      FROM Voorwerp V inner join Voorwer
+      ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
+      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerpnummer 
       inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
-      R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau");
+      R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau\");
         }
         else {
-            $returnQuery = $dbh->query("SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijd
-      ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
-      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerpnummer 
+            $returnQuery = $dbh->query(\"SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijderpnummer 
       inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
       R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau
       WHERE R.Rubrieknaam = '$categorie'");

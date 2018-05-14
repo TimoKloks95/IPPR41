@@ -209,30 +209,34 @@ header > .container {
     color: #3F3F37;
 }
 
-.container-detailbieden table {
+.container-detailbieden  table {
     border: 1px solid;
     margin: 10px 0 10px 0;
 }
 
 .container-detailbieden button {
-    background-color: #98B06F;
-    color: #3F3F37;
-}
-
-.container-detailbieden button:hover {
     background-color: #DE541E;
     color: white;
+    border: transparent 0.25rem solid;
+}
+
+.container-detailbieden > button:hover {
+    background-color: #98B06F;
+    color: white;
+    border: #DE541E 0.25rem solid;
 }
 
 #meerbiedingenknop {
     width: 100%;
-    background-color: #98B06F;
-    color: #3F3F37;
+    background-color: #DE541E;
+    color: white;
+    border: transparent 0.25rem solid;
 }
 
 #meerbiedingenknop:hover {
-    background-color: #DE541E;
+    background-color: #98B06F;
     color: white;
+    border: #DE541E 0.25rem solid;
 }
 
 /* -- CAROUSEL -- */
