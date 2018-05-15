@@ -9,7 +9,9 @@
 ?>
 
 <div class="container bg-light">
-    <?php echo $_GET['cat']; ?>
+    <?php if (isset($_GET['cat'])) {
+        echo $_GET['cat'];
+    } ?>
     <main>
         <a href="?url=detailpagina">
             <div class="card">

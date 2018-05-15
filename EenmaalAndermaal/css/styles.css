@@ -175,6 +175,10 @@ header > .container {
 
 }
 
+.noncurrent-item {
+    border: none;
+}
+
 .btn-outline-success {
     color: #87B04E;
     background: transparent none;
