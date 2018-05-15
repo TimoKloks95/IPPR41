@@ -158,9 +158,14 @@ header > .container {
 }
 
 @media only screen and (max-width: 420px) {
-    header > .container > .d-flex > .p-2 > button {
+    header > .container > .d-flex > .p-2 > .btn-primary {
         display: none;
     }
+}
+
+header > .container > .d-flex > .p-2 > .btn-primary {
+    color: whitesmoke;
+    margin-top: 0.7rem;
 }
 
 .navbar-nav {
@@ -206,6 +211,9 @@ header > .container {
     min-width: 100%;
     margin: 0 auto;
     position: relative;
+}
+main > .container{
+    min-height: 40vh;
 }
 
 .btn-primary {
@@ -298,7 +306,27 @@ header > .container {
     border: #DE541E 0.25rem solid;
 }
 
+.container-detail > .card {
+   min-width: 100%;
+}
+
 /* -- CAROUSEL -- */
+
+@media only screen and (max-width: 1010px) {
+    .carousel img {
+        max-width: 75vh;
+        max-height: 75vh;
+        min-height: 80vh;
+        min-width: 80vh;
+        margin: 0 auto;
+    }
+    .carousel {
+        max-width: 75vh;
+        max-height: 75vh;
+        min-height: 80vh;
+        min-width: 80vh;
+    }
+}
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
@@ -400,6 +428,7 @@ main > .card:hover {
     display: flex;
     flex-flow: row wrap;
 }
+
 
 footer {
     background: #3F3F37;
