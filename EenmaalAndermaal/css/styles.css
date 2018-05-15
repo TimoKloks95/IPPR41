@@ -166,6 +166,11 @@ header > .container {
 header > .container > .d-flex > .p-2 > .btn-primary {
     color: whitesmoke;
     margin-top: 0.7rem;
+    background-color: transparent;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: none;
 }
 
 .navbar-nav {
