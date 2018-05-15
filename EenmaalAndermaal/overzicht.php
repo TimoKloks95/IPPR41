@@ -13,6 +13,7 @@
         echo $_GET['cat'];
     } ?>
     <main>
+<<<<<<< HEAD
         <a href="?url=detailpagina">
             <div class="card">
                 <img class="card-img-top" src="images/Crow-Skull.png" alt="Card image cap">
@@ -103,21 +104,26 @@
                 </div>
             </div>
         </a>
+=======
+>>>>>>> c3c9960a8acfbf4fe114c495a2779e8e237c0f48
         <?php
         $categorie = $_GET['cat'];
         $dbh = getDatabaseConnection();
         if ($categorie == 'all') {
             $returnQuery = $dbh->query("SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijd
       ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
-      FROM Voorwerp V inner join Voorwer
-      ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
-      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerpnummer 
-      inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
-      R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau\");
+      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerp_afbeelding inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
+      R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau");
         }
         else {
+<<<<<<< HEAD
             $returnQuery = $dbh->query(\"SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijderpnummer 
       inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
+=======
+            $returnQuery = $dbh->query("SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijd
+      ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
+      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerp_afbeelding inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
+>>>>>>> c3c9960a8acfbf4fe114c495a2779e8e237c0f48
       R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau
       WHERE R.Rubrieknaam = '$categorie'");
         }
