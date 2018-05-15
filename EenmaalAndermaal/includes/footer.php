@@ -9,27 +9,29 @@
 
 <footer class="flex-rw d-flex justify-content-around">
 
-        <ul class="footer-list-top d-flex flex-column">
-            <li class="p-2"><h4 class="footer-list-header">Over Ons</h4></li>
+    <ul class="footer-list-top d-flex flex-column">
+        <li class="p-2"><h4 class="footer-list-header">Over Ons</h4></li>
 
-            <li class="p-2"><a href='?url=overons' class="generic-anchor footer-list-anchor">Over ons</a></li>
-            <li class="p-2"><a href='?url=werking' class="generic-anchor footer-list-anchor">Hoe werkt het</a></li>
-            <li class="p-2"><a href='?url=vacatures' class="generic-anchor footer-list-anchor">Vacatures</a></li>
-        </ul>
-        <ul class="footer-list-top d-flex flex-column">
-            <li class="p-2"><h4 class="footer-list-header">Klantenservice</h4></li>
+        <li class="p-2"><a href='?url=overons' class="generic-anchor footer-list-anchor">Over ons</a></li>
+        <li class="p-2"><a href='?url=werking' class="generic-anchor footer-list-anchor">Hoe werkt het</a></li>
+        <li class="p-2"><a href='?url=vacatures' class="generic-anchor footer-list-anchor">Vacatures</a></li>
+    </ul>
+    <ul class="footer-list-top d-flex flex-column">
+        <li class="p-2"><h4 class="footer-list-header">Klantenservice</h4></li>
 
-            <li class="p-2"><a href='?url=registreer' class="generic-anchor footer-list-anchor">Registreer</a></li>
-            <li class="p-2"><a href='?url=login' class="generic-anchor footer-list-anchor">Login</a></li>
-            <li class="p-2"><a href='?url=contact' class="generic-anchor footer-list-anchor">Contact</a></li>
-        </ul>
-        <ul class="footer-list-top d-flex flex-column">
-            <li class="p-2"><h4 class="footer-list-header">Direct naar</h4></li>
+        <li class="p-2"><a href='?url=registreer' class="generic-anchor footer-list-anchor">Registreer</a></li>
+        <li class="p-2"><a href='?url=login' class="generic-anchor footer-list-anchor">Login</a></li>
+        <li class="p-2"><a href='?url=contact' class="generic-anchor footer-list-anchor">Contact</a></li>
+    </ul>
+    <ul class="footer-list-top d-flex flex-column">
+        <li class="p-2"><h4 class="footer-list-header">Direct naar</h4></li>
 
-            <li class="p-2"><a href='?url=overzicht' class="generic-anchor footer-list-anchor">Overzicht alle veilingen</a></li>
-            <li class="p-2"><a href='?url=veilingplaatsen' class="generic-anchor footer-list-anchor">Zelf iets veilen</a></li>
-            <li class="p-2"><a href='?url=partner' class="generic-anchor footer-list-anchor">Partners</a></li>
-        </ul>
+        <li class="p-2"><a href='?url=overzicht' class="generic-anchor footer-list-anchor">Overzicht alle veilingen</a>
+        </li>
+        <li class="p-2"><a href='?url=veilingplaatsen' class="generic-anchor footer-list-anchor">Zelf iets veilen</a>
+        </li>
+        <li class="p-2"><a href='?url=partner' class="generic-anchor footer-list-anchor">Partners</a></li>
+    </ul>
 
 
     <section class="footer-bottom-section flex-rw">
@@ -51,3 +53,5 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
 </footer>
+</body>
+</html>

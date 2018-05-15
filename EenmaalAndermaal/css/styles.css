@@ -77,9 +77,10 @@ header > .container {
     max-width: 2rem;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
     .nav-item {
         width: 33%;
+        height: auto;
     }
 
     .menu-item-img {
@@ -88,21 +89,28 @@ header > .container {
     }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 420px) {
     .nav-item {
         width: 25%;
+        height: auto;
+    }
+    .menu-item-img {
+        min-height: 2rem;
+        min-width: 2rem;
     }
 }
 
 @media only screen and (min-width: 600px) {
     .nav-item {
         width: 20%;
+        height: auto;
     }
 }
 
 @media only screen and (min-width: 760px) {
     .nav-item {
         width: 15%;
+        height: auto;
     }
 
     .form-inline > .form-control {
@@ -117,6 +125,7 @@ header > .container {
     .nav-item {
         width: 11%;
         margin: .5rem;
+        height: auto;
     }
 
     .form-inline > .form-control {
@@ -128,6 +137,7 @@ header > .container {
     .nav-item {
         width: 9vw;
         margin: .5rem;
+        height: auto;
     }
 
     .navbar-nav {
