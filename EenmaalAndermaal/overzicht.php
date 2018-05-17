@@ -16,19 +16,30 @@
         <?php
         $dbh = getDatabaseConnection();
         $categorie = $_GET['cat'];
-        $returnQuery = ("SELECT V.titel as titel, V.startprijs as startprijs, V.looptijdbeginDag as begindag, V.looptijdbeginTijdstip as begintijd
+        if ($categorie == 'all') {
+            $returnQuery = ("SELECT V.titel as titel, V.startprijs as startprijs, V.looptijdbeginDag as begindag, V.looptijdbeginTijdstip as begintijd
+      ,V.beschrijving as beschrijving, VA.afbeelding as afbeelding
+      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerpnummer 
+      inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
+      R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau");
+            $statement = $dbh->prepare($returnQuery);
+            $statement->execute();
+        } else {
+            $returnQuery = ("SELECT V.titel as titel, V.startprijs as startprijs, V.looptijdbeginDag as begindag, V.looptijdbeginTijdstip as begintijd
       ,V.beschrijving as beschrijving, VA.afbeelding as afbeelding
       FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerpnummer 
       inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
       R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau
       WHERE R.Rubrieknaam = :categorie");
-        $statement = $dbh->prepare($returnQuery);
-        $statement->execute(
-            array(
-                ':categorie' => $categorie
-            )
-        );
+            $statement = $dbh->prepare($returnQuery);
+            $statement->execute(
+                array(
+                    ':categorie' => $categorie
+                )
+            );
+        }
         if (($statement->rowCount()) === 0) {
+            closeDatabaseConnection($dbh);
             header('Location: ?url=notfound');
         } else {
             while ($row = $statement->fetch()) {
@@ -38,48 +49,26 @@
                 $titel = $row['titel'];
                 $beschrijving = $row['beschrijving'];
                 $afbeelding = $row['afbeelding'];
-                if ($categorie == 'all') {
-                    $returnQuery = $dbh->query("SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijd
-      ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
-      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerp_afbeelding inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
-      R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau");
-                } else {
-                    $returnQuery = $dbh->query("SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijd
-      ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
-      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerp_afbeelding inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
-      R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau
-      WHERE R.Rubrieknaam = '$categorie'");
-                }
-                closeDatabaseConnection($dbh);
 
-                while ($row = $returnQuery->fetch()) {
-                    $startprijs = $row['startprijs'];
-                    $begindag = $row['begindag'];
-                    $begintijd = $row['begintijd'];
-                    $titel = $row['Titel'];
-                    $beschrijving = $row['Beschrijving'];
-                    $afbeelding = $row['Afbeelding'];
-
-                    echo '
-            <a href="?url=detailpagina">
-            <div class="card">
-                <img class="card-img-top" src="' . $afbeelding . '" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title carousel-caption">' . $titel . '</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Startprijs: $' . $startprijs . '</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">Startdatum: ' . $begindag . " " . $begintijd . '</h6>
-                    <p class="card-text">' . $beschrijving . '
-                        <br>
-                        <br>
-                    </p>
-                </div>
-                    <button type="button" class="btn btn-primary">Meer info</button>
-                </div>
-            </div>
-        </a>
+                echo '
+                <a href="?url=detailpagina">
+                <div class="card">
+                    <img class="card-img-top" src="' . $afbeelding . '" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title carousel-caption">' . $titel . '</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Startprijs: $' . $startprijs . '</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Startdatum: ' . $begindag . " " . $begintijd . '</h6>
+                        <p class="card-text">' . $beschrijving . '
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                        <button type="button" class="btn btn-primary">Meer info</button>
+                    </div>
+                </a>
             ';
-                }
             }
+            closeDatabaseConnection($dbh);
         }
         ?>
     </main>
