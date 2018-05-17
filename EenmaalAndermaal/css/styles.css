@@ -77,10 +77,9 @@ header > .container {
     max-width: 2rem;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 400px) {
     .nav-item {
         width: 33%;
-        height: auto;
     }
 
     .menu-item-img {
@@ -89,28 +88,21 @@ header > .container {
     }
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 400px) {
     .nav-item {
         width: 25%;
-        height: auto;
-    }
-    .menu-item-img {
-        min-height: 2rem;
-        min-width: 2rem;
     }
 }
 
 @media only screen and (min-width: 600px) {
     .nav-item {
         width: 20%;
-        height: auto;
     }
 }
 
 @media only screen and (min-width: 760px) {
     .nav-item {
         width: 15%;
-        height: auto;
     }
 
     .form-inline > .form-control {
@@ -125,7 +117,6 @@ header > .container {
     .nav-item {
         width: 11%;
         margin: .5rem;
-        height: auto;
     }
 
     .form-inline > .form-control {
@@ -137,7 +128,6 @@ header > .container {
     .nav-item {
         width: 9vw;
         margin: .5rem;
-        height: auto;
     }
 
     .navbar-nav {
@@ -158,14 +148,9 @@ header > .container {
 }
 
 @media only screen and (max-width: 420px) {
-    header > .container > .d-flex > .p-2 > .btn-primary {
+    header > .container > .d-flex > .p-2 > button {
         display: none;
     }
-}
-
-header > .container > .d-flex > .p-2 > .btn-primary {
-    color: whitesmoke;
-    margin-top: 0.7rem;
 }
 
 .navbar-nav {
@@ -211,9 +196,6 @@ header > .container > .d-flex > .p-2 > .btn-primary {
     min-width: 100%;
     margin: 0 auto;
     position: relative;
-}
-main > .container{
-    min-height: 40vh;
 }
 
 .btn-primary {
@@ -306,27 +288,7 @@ main > .container{
     border: #DE541E 0.25rem solid;
 }
 
-.container-detail > .card {
-   min-width: 100%;
-}
-
 /* -- CAROUSEL -- */
-
-@media only screen and (max-width: 1010px) {
-    .carousel img {
-        max-width: 75vh;
-        max-height: 75vh;
-        min-height: 80vh;
-        min-width: 80vh;
-        margin: 0 auto;
-    }
-    .carousel {
-        max-width: 75vh;
-        max-height: 75vh;
-        min-height: 80vh;
-        min-width: 80vh;
-    }
-}
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
@@ -428,7 +390,6 @@ main > .card:hover {
     display: flex;
     flex-flow: row wrap;
 }
-
 
 footer {
     background: #3F3F37;
