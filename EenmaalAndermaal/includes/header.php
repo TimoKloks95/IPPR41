@@ -41,8 +41,8 @@
                 </nav>
             </div>
             <div class="p-2">
-                <button type="button" class="btn btn-default">Login</button>
-                <button type="button" class="btn btn-default">Registreer</button>
+                <a href="?url=login" type="button" class="btn btn-primary">Login</a>
+                    <a href="?url=registreer" type="button" class="btn btn-primary">Registreer</a>
             </div>
         </div>
     </div>

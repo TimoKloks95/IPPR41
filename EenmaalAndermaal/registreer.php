@@ -12,24 +12,35 @@
         <h1 class="text-center text-inverse">Registratie formulier</h1>
         <hr>
         <form>
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                     aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
-            </div>
+            <!--            Persoonsgegevens-->
             <fieldset>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                         aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%"></div>
+                </div>
                 <h4 class="text-left text-inverse">Persoonsgegevens</h4>
                 <hr>
 
                 <div class="form-row">
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-4">
                         <label for="inputVoornaam">Voornaam</label>
                         <input type="text" class="form-control" id="inputVoornaam" placeholder="Henk" required
                                oninvalid="this.setCustomValidity('Vul uw voornaam in, aub')">
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-4">
                         <label for="inputAchternaam">Achternaam</label>
                         <input type="text" class="form-control" id="inputAchternaam" placeholder="Janssen" required
                                oninvalid="this.setCustomValidity('Vul uw achternaam, aub')">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputSex">Sekse</label>
+                        <select id="inputSex" class="form-control" required
+                                oninvalid="this.setCustomValidity('Selecteer uw sekse, aub')">
+                            <option selected>Kies...</option>
+                            <option>Vrouw</option>
+                            <option>Man</option>
+                            <option>Anders</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form-row">
@@ -71,7 +82,7 @@
                         <label for="inputState">Land</label>
                         <select id="inputState" class="form-control" required
                                 oninvalid="this.setCustomValidity('Selecteer uw land, aub')">
-                            <option selected>Choose...</option>
+                            <option selected>Kies...</option>
                             <option>Nederland</option>
                             <option>Duitsland</option>
                             <option>België</option>
@@ -98,51 +109,91 @@
                         <input type="date" class="form-control" id="inputBDay" placeholder="01-01-1970" required>
                     </div>
                 </div>
+                <div class="g-recaptcha" data-sitekey="6LeD11kUAAAAALo1gAFNdURzm7vYRGilQ5m0sKtI"></div>
                 <input type="button" name="next" class="btn btn-primary next" value="Next"/>
             </fieldset>
-
+            <!--            Accountgegevens-->
             <fieldset>
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                         aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%"></div>
+                         aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" style="width: 38%"></div>
                 </div>
                 <h4 class="text-left text-inverse">Accountgegevens</h4>
                 <hr>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputVerificatie">Verificatiecode</label>
-                        <input type="text" class="form-control" id="inputVerificatie" placeholder="12345678" required>
+                        <input type="text" class="form-control" id="inputVerificatie" placeholder="12345678" required
+                               oninvalid="this.setCustomValidity('Vul uw code in, aub')">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputUsername">Gebruikersnaam</label>
-                        <input type="text" class="form-control" id="inputUsername" placeholder="HenkJanssen" required>
+                        <input type="text" class="form-control" id="inputUsername" placeholder="HenkJanssen" required
+                               oninvalid="this.setCustomValidity('Vul uw gebruikersnaam in, aub')">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputPassword">Wachtwoord</label>
                         <input type="password" class="form-control" id="inputPassword" placeholder="Wachtwoord"
-                               required>
+                               required oninvalid="this.setCustomValidity('Vul uw wachtwoord in, aub')">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputPassword2">Wachtwoord bevestigen</label>
                         <input type="password" class="form-control" id="inputPassword2" placeholder="Wachtwoord"
-                               required>
+                               required oninvalid="this.setCustomValidity('Herhaal uw voornaam, aub')">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="inputQuestion">Geheime vraag</label>
+                        <select id="inputQuestion" class="form-control" required
+                                oninvalid="this.setCustomValidity('Selecteer uw vraag, aub')">
+                            <option selected>Kies...</option>
+                            <option>In welke straat ben je geboren?</option>
+                            <option>Wat is de meisjesnaam je moeder?</option>
+                            <option>Wat is je lievelingsgerecht?</option>
+                            <option>Hoe heet je oudste zusje?</option>
+                            <option>Hoe heet je huisdier?</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputAnswer">Antwoord op vraag</label>
+                        <input type="text" class="form-control" id="inputAnswer" placeholder="Petranella" required
+                               oninvalid="this.setCustomValidity('Vul uw antwoord op de vraag in, aub')">
                     </div>
                 </div>
                 <input type="button" name="next" class="btn btn-primary next" value="Next"/>
             </fieldset>
-
+            <!--            Betaalgegevens-->
             <fieldset>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                         aria-valuenow="71" aria-valuemin="0" aria-valuemax="100" style="width: 71%"></div>
+                </div>
+                <h4 class="text-left text-inverse">Betaalgegevens</h4>
+                <hr>
                 <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Check me out
-                        </label>
+                    <div class="form-group col-md-3">
+                        <label for="inputBank">Bank</label>
+                        <select id="inputQuestion" class="form-control" required
+                                oninvalid="this.setCustomValidity('Selecteer uw bank, aub')">
+                            <option selected>Kies...</option>
+                            <option>Rabobank</option>
+                            <option>ING</option>
+                            <option>Knab</option>
+                            <option>ASN Bank</option>
+                            <option>NIBC Bank</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputBanknum">Bankrekeningnummer</label>
+                        <input type="password" class="form-control" id="inputBanknum" placeholder="NL01RABO12345678"
+                               required oninvalid="this.setCustomValidity('Voer uw rekeningnummer in, aub')">
                     </div>
                 </div>
-                <input type="button" name="next" class="btn btn-primary next" value="Next"/>
+                <input type="button" name="previous" class="btn btn-primary previous" value="Previous"/>
+                <input type="submit" name="sumbit" class="btn btn-primary next" value="submit"/>
             </fieldset>
         </form>
     </div>

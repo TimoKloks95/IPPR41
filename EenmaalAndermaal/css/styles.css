@@ -153,7 +153,6 @@ header > .container {
     }
 }
 
-<<<<<<< HEAD
 header > .container > .d-flex > .p-2 > .btn-primary {
     color: whitesmoke;
     margin-top: 0.7rem;
@@ -169,8 +168,6 @@ header > .container > .d-flex > .p-2 > .btn-primary:hover {
     -webkit-appearance: none;
 }
 
-=======
->>>>>>> 5afe86d36c291dd4658bc316abc6875749739535
 .navbar-nav {
     display: flex;
     justify-content: center;
@@ -386,9 +383,17 @@ main > .card:hover {
     max-height: 20rem;
     width: 100%;
 }
-/* --------------------------------------- REGISTRATIE FORMULIER A ------------------------------*/
+/* --------------------------------------- REGISTRATIE FORMULIER ------------------------------*/
 fieldset:not(:first-of-type) {
     display: none;
+}
+
+fieldset{
+    margin: 1rem;
+}
+
+.progress-bar {
+    background-color: #87B04E;
 }
 
 
