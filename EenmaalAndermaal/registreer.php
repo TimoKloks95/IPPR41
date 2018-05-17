@@ -132,7 +132,7 @@
                 </div>
                 <input type="button" name="next" class="btn btn-primary next" value="Next"/>
             </fieldset>
-            
+
             <fieldset>
                 <div class="form-group">
                     <div class="form-check">

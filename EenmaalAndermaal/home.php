@@ -6,8 +6,5 @@
  * Time: 15:40
  */
 ?>
-<main>
-    <div class="container">
-        <h1>Eenmaal Andermaal</h1>
-    </div>
-</main>
+
+<h1>Eenmaal Andermaal</h1>

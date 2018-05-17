@@ -11,9 +11,6 @@
         current_fs = $(this).parent();
         next_fs = $(this).parent().next();
 
-        //activate next step on progressbar using the index of next_fs
-        $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
-
         //show the next fieldset
         next_fs.show();
         //hide the current fieldset with style
