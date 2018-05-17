@@ -42,7 +42,7 @@
             </div>
             <div class="p-2">
                 <a href="?url=login" type="button" class="btn btn-primary">Login</a>
-                    <a href="?url=registreer" type="button" class="btn btn-primary">Registreer</a>
+                <a href="?url=registreer" type="button" class="btn btn-primary">Registreer</a>
             </div>
         </div>
     </div>
@@ -57,10 +57,14 @@
 
         <!-- icoontjes -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="form-inline">
-                <input class="form-control" type="text" placeholder="Zoeken">
-                <button class="btn" type="submit"><img class="loop" src="images/loop.png" alt="Loop"></button>
-            </form>
+            <div class="con flex-row">
+                <div id="search-wrap">
+                    <form action="https://google.com" method="get">
+                        <input id="search" name="q" type="text" placeholder="Search..."> <i class="search-icon ico"></i><input
+                                id="search_submit" value="Zoek" type="submit">
+                    </form>
+                </div>
+            </div>
             <ul class="navbar-nav mx-auto flex-row flex-wrap">
                 <li class="nav-item<?php if (isset($_GET['url']) && isset($_GET['cat'])) {
                     if ($_GET['cat'] == 'all') { ?> current-item <?php } else { ?> noncurrent-item <?php }

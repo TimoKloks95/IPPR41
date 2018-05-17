@@ -22,7 +22,7 @@
                 <hr>
 
                 <div class="form-row">
-                    <div class="form-group col-md-4">
+                    <div class="form-group col">
                         <label for="inputVoornaam">Voornaam</label>
                         <input type="text" class="form-control" id="inputVoornaam" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw voornaam in, aub')">
@@ -32,7 +32,7 @@
                         <input type="text" class="form-control" id="inputAchternaam" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw achternaam, aub')">
                     </div>
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-4">
                         <label for="inputSex">Sekse</label>
                         <select id="inputSex" class="form-control" required
                                 oninvalid="this.setCustomValidity('Selecteer uw sekse, aub')">
@@ -57,12 +57,12 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputAddress2">Straat 2</label>
+                        <label for="inputAddress2">*Straat 2*</label>
                         <input type="text" class="form-control" id="inputAddress2" placeholder=""
                                oninvalid="this.setCustomValidity('Vul uw straat in, aub')">
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputHuisnummer2">Huisnummer 2</label>
+                        <label for="inputHuisnummer2">*Huisnummer 2*</label>
                         <input type="text" class="form-control" id="inputHuisnummer2" placeholder=""
                                oninvalid="this.setCustomValidity('Vul uw huisnummer in, aub')">
                     </div>
@@ -143,6 +143,10 @@
                         <input type="password" class="form-control" id="inputPassword2" placeholder=""
                                required oninvalid="this.setCustomValidity('Herhaal uw voornaam, aub')">
                     </div>
+                    <p id="passwordHelpBlock" class="form-text text-muted">
+                        Het wachtwoord moet tussen de 7-20 tekens bevatten. Waaronder hoofdletters en cijfers. Het
+                        is niet toegestaan om spaties, speciale karakters of emoji's te gebruiken.
+                    </p>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-3">
