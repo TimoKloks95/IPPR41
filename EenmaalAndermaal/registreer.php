@@ -24,12 +24,12 @@
                 <div class="form-row">
                     <div class="form-group col-md-4">
                         <label for="inputVoornaam">Voornaam</label>
-                        <input type="text" class="form-control" id="inputVoornaam" placeholder="Henk" required
+                        <input type="text" class="form-control" id="inputVoornaam" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw voornaam in, aub')">
                     </div>
                     <div class="form-group col-md-4">
                         <label for="inputAchternaam">Achternaam</label>
-                        <input type="text" class="form-control" id="inputAchternaam" placeholder="Janssen" required
+                        <input type="text" class="form-control" id="inputAchternaam" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw achternaam, aub')">
                     </div>
                     <div class="form-group col-md-3">
@@ -46,36 +46,36 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputAddress">Straat</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Hoofdstraat" required
+                        <input type="text" class="form-control" id="inputAddress" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw straatnaam in, aub')">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputHuisnummer">Huisnummer</label>
-                        <input type="number" class="form-control" id="inputHuisnummer" placeholder="45" required
+                        <input type="number" class="form-control" id="inputHuisnummer" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw huisnummer in, aub')">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputAddress2">Straat 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Kerkstraat"
+                        <input type="text" class="form-control" id="inputAddress2" placeholder=""
                                oninvalid="this.setCustomValidity('Vul uw straat in, aub')">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputHuisnummer2">Huisnummer 2</label>
-                        <input type="text" class="form-control" id="inputHuisnummer2" placeholder="19"
+                        <input type="text" class="form-control" id="inputHuisnummer2" placeholder=""
                                oninvalid="this.setCustomValidity('Vul uw huisnummer in, aub')">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputCity">Woonplaats</label>
-                        <input type="text" class="form-control" id="inputCity" placeholder="Amsterdam" required
+                        <input type="text" class="form-control" id="inputCity" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw woonplaats in, aub')">
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputZip">Postcode</label>
-                        <input type="text" class="form-control" id="inputZip" placeholder="1234AB" required
+                        <input type="text" class="form-control" id="inputZip" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw postcode in, aub')">
                     </div>
                     <div class="form-group col-md-3">
@@ -97,20 +97,20 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="henk-janssen@mail.com"
+                        <input type="email" class="form-control" id="inputEmail4" placeholder=""
                                required>
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputMobile">Telefoonnummer</label>
-                        <input type="tel" class="form-control" id="inputMobile" placeholder="0612345678" required>
+                        <input type="tel" class="form-control" id="inputMobile" placeholder="" required>
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputBDay">Geboortedatum</label>
-                        <input type="date" class="form-control" id="inputBDay" placeholder="01-01-1970" required>
+                        <input type="date" class="form-control" id="inputBDay" placeholder="" required>
                     </div>
                 </div>
                 <div class="g-recaptcha" data-sitekey="6LeD11kUAAAAALo1gAFNdURzm7vYRGilQ5m0sKtI"></div>
-                <input type="button" name="next" class="btn btn-primary next" value="Next"/>
+                <input type="button" name="next" class="btn btn-primary next" value="Volgende"/>
             </fieldset>
             <!--            Accountgegevens-->
             <fieldset>
@@ -123,24 +123,24 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputVerificatie">Verificatiecode</label>
-                        <input type="text" class="form-control" id="inputVerificatie" placeholder="12345678" required
+                        <input type="text" class="form-control" id="inputVerificatie" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw code in, aub')">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputUsername">Gebruikersnaam</label>
-                        <input type="text" class="form-control" id="inputUsername" placeholder="HenkJanssen" required
+                        <input type="text" class="form-control" id="inputUsername" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw gebruikersnaam in, aub')">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputPassword">Wachtwoord</label>
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Wachtwoord"
+                        <input type="password" class="form-control" id="inputPassword" placeholder=""
                                required oninvalid="this.setCustomValidity('Vul uw wachtwoord in, aub')">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputPassword2">Wachtwoord bevestigen</label>
-                        <input type="password" class="form-control" id="inputPassword2" placeholder="Wachtwoord"
+                        <input type="password" class="form-control" id="inputPassword2" placeholder=""
                                required oninvalid="this.setCustomValidity('Herhaal uw voornaam, aub')">
                     </div>
                 </div>
@@ -159,11 +159,11 @@
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputAnswer">Antwoord op vraag</label>
-                        <input type="text" class="form-control" id="inputAnswer" placeholder="Petranella" required
+                        <input type="text" class="form-control" id="inputAnswer" placeholder="" required
                                oninvalid="this.setCustomValidity('Vul uw antwoord op de vraag in, aub')">
                     </div>
                 </div>
-                <input type="button" name="next" class="btn btn-primary next" value="Next"/>
+                <input type="button" name="next" class="btn btn-primary next" value="Volgende"/>
             </fieldset>
             <!--            Betaalgegevens-->
             <fieldset>
@@ -188,12 +188,12 @@
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputBanknum">Bankrekeningnummer</label>
-                        <input type="password" class="form-control" id="inputBanknum" placeholder="NL01RABO12345678"
+                        <input type="password" class="form-control" id="inputBanknum" placeholder=""
                                required oninvalid="this.setCustomValidity('Voer uw rekeningnummer in, aub')">
                     </div>
                 </div>
-                <input type="button" name="previous" class="btn btn-primary previous" value="Previous"/>
-                <input type="submit" name="sumbit" class="btn btn-primary next" value="submit"/>
+                <input type="button" name="previous" class="btn btn-primary previous" value="Terug"/>
+                <input type="submit" name="sumbit" class="btn btn-primary next" value="Verzend"/>
             </fieldset>
         </form>
     </div>
