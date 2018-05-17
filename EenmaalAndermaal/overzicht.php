@@ -12,8 +12,30 @@
     <?php if(isset($_GET['cat'])) { echo $_GET['cat'];} ?>
     <main>
         <?php
-        $categorie = $_GET['cat'];
         $dbh = getDatabaseConnection();
+        $categorie = $_GET['cat'];
+        $returnQuery = ("SELECT V.titel as titel, V.startprijs as startprijs, V.looptijdbeginDag as begindag, V.looptijdbeginTijdstip as begintijd
+      ,V.beschrijving as beschrijving, VA.afbeelding as afbeelding
+      FROM Voorwerp V inner join Voorwerp_afbeelding VA on V.Voorwerpnummer = VA.Voorwerpnummer 
+      inner join Voorwerp_In_Rubriek VIR on V.Voorwerpnummer = VIR.Voorwerp inner join Rubriek R on
+      R.Rubrieknummer = VIR.Rubriek_Op_Laagste_Niveau
+      WHERE R.Rubrieknaam = :categorie");
+        $statement = $dbh->prepare($returnQuery);
+        $statement->execute(
+            array(
+                ':categorie' => $categorie
+            )
+        );
+        if (($statement->rowCount()) === 0) {
+            header('Location: ?url=notfound');
+        } else {
+            while ($row = $statement->fetch()) {
+                $startprijs = $row['startprijs'];
+                $begindag = $row['begindag'];
+                $begintijd = $row['begintijd'];
+                $titel = $row['titel'];
+                $beschrijving = $row['beschrijving'];
+                $afbeelding = $row['afbeelding'];
         if($categorie == 'all') {
             $returnQuery = $dbh->query("SELECT V.Titel as Titel, V.Startprijs as startprijs, V.LooptijdbeginDag as begindag, V.LooptijdbeginTijdstip as begintijd
       ,V.Beschrijving as Beschrijving, VA.Afbeelding as Afbeelding
@@ -37,7 +59,7 @@
             $beschrijving = $row['Beschrijving'];
             $afbeelding = $row['Afbeelding'];
 
-            echo '
+                echo '
             <a href="?url=detailpagina">
             <div class="card">
                 <img class="card-img-top" src="'.$afbeelding.'" alt="Card image cap">
@@ -55,6 +77,7 @@
             </div>
         </a>
             ';
+            }
         }
         ?>
     </main>
