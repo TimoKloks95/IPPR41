@@ -32,7 +32,6 @@
         </ul>
 
 
-<<<<<<< HEAD
         <section class="footer-bottom-section flex-rw">
             <div class="footer-bottom-wrapper">
                 <a class="generic-anchor" rel="nofollow">© iConcepts 2018</a>
@@ -56,7 +55,6 @@
 </footer>
 </body>
 </html>
-=======
     <section class="footer-bottom-section flex-rw">
         <div class="footer-bottom-wrapper">
             <a class="generic-anchor" rel="nofollow">© iConcepts 2016 - 2018</a>
@@ -76,4 +74,3 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
 </footer>
->>>>>>> 5afe86d36c291dd4658bc316abc6875749739535
