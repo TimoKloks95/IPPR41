@@ -5,6 +5,26 @@
  * Date: 7-5-2018
  * Time: 10:01
  */
+
+
+if (isset($_POST['submit'])) {
+    $maxLengthUserName = 30;
+    $password = null;
+    if ((!is_null($_POST['password']) && $_POST['password'] == $_POST['password2']) || strlen($_POST['username']) > $maxLengthUserName) {
+        $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+        registerUser($_POST['email'], $_POST['lastname'], $_POST['firstname'], $_POST['paymentMethod'], $_POST['bankaccount'], $_POST['subscription'], $_POST['username'], $password, $_POST['country'], $_POST['gender'], $_POST['birthdate']);
+        ob_clean();
+        header('location:?url=index');
+    } else {
+        $errorMessage = 'Failed to register.';
+        ?>
+        <div class="error">
+            <p><?= $errorMessage ?></p>
+        </div>
+        <?php
+    }
+}
+
 ?>
 
 <main>
