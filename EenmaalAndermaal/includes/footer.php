@@ -33,29 +33,26 @@
         <li class="p-2"><a href='?url=partner' class="generic-anchor footer-list-anchor">Partners</a></li>
     </ul>
 
-    <section class="footer-bottom-section flex-rw">
-        <div class="footer-bottom-wrapper">
-            <a class="generic-anchor" rel="nofollow">© iConcepts 2018</a>
-            <a href="?url=privacy" class="generic-anchor" rel="nofollow">Privacy</a> |
-            <a href="?url=voorwaarden" class="generic-anchor" rel="nofollow">Voorwaarden</a> |
-            <a href="?url=cookies" class="generic-anchor" rel="nofollow">Cookies</a>
-        </div>
-    </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-    <script src="JS/JavaScript.js" type="text/javascript"></script>
-    <script src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js" type="text/javascript"></script>
-    <!-- jQuery easing plugin -->
-    <script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" type="text/javascript"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+        <section class="footer-bottom-section flex-rw">
+            <div class="footer-bottom-wrapper">
+                <a class="generic-anchor" rel="nofollow">© iConcepts 2018</a>
+                <a href="?url=privacy" class="generic-anchor" rel="nofollow">Privacy</a> |
+                <a href="?url=voorwaarden" class="generic-anchor" rel="nofollow">Voorwaarden</a> |
+                <a href="?url=cookies" class="generic-anchor" rel="nofollow">Cookies</a>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+        <script src="/JS/JavaScript.js"></script>
     </div>
 </footer>
 </body>
