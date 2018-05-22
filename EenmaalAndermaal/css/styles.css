@@ -530,6 +530,35 @@ fieldset {
     background-color: #87B04E;
 }
 
+/*----------------------------------------- LOGIN PAGE --------------------------------------------*/
+
+.tile{
+    border-radius: .1rem;
+    box-shadow: 13px 13px 13px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 100%;
+    min-width: 50vw;
+    max-width: 70vw;
+    overflow: hidden;
+}
+
+.tile-header {
+    background: linear-gradient(-60deg, #87B04c, #98B06F);
+    height: 17vh;
+}
+#tile-header-h2 {
+    color: #3F3F37;
+    opacity: .75;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tile-body {
+    padding: 2rem;
+}
 /*----------------------------------------- LOGO -------------------------*/
 #logo-img {
     max-width: 160px;

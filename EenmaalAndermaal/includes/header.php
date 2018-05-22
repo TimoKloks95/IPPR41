@@ -41,8 +41,18 @@
                 </nav>
             </div>
             <div class="p-2">
-                <a href="?url=login" type="button" class="btn btn-primary">Login</a>
-                <a href="?url=registreer" type="button" class="btn btn-primary">Registreer</a>
+                <?php
+                if (ISSET($_SESSION['username']) && !is_null($_SESSION['username'])) {
+                    ?>
+                    <a href="?url=logout" type="button" class="btn btn-primary">Logout</a>
+                    <?php
+                } else {
+                    ?>
+                    <a href="?url=login" type="button" class="btn btn-primary">Login</a>
+                    <a href="?url=register" type="button" class="btn btn-primary">Register</a>
+                    <?php
+                }
+                ?>
             </div>
         </div>
     </div>

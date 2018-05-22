@@ -44,18 +44,18 @@ if (isset($_POST['submit'])) {
                 <div class="form-row">
                     <div class="form-group col">
                         <label for="inputVoornaam">Voornaam</label>
-                        <input type="text" class="form-control" id="inputVoornaam" placeholder="" required
-                               oninvalid="this.setCustomValidity('Vul uw voornaam in, aub')">
+                        <input type="text" class="form-control" id="inputVoornaam" placeholder=""
+                               oninvalid="this.setCustomValidity('Vul uw voornaam in, aub')" required/>
                     </div>
                     <div class="form-group col-md-4">
                         <label for="inputAchternaam">Achternaam</label>
-                        <input type="text" class="form-control" id="inputAchternaam" placeholder="" required
-                               oninvalid="this.setCustomValidity('Vul uw achternaam, aub')">
+                        <input type="text" class="form-control" id="inputAchternaam" placeholder=""
+                               oninvalid="this.setCustomValidity('Vul uw achternaam, aub')" required/>
                     </div>
                     <div class="form-group col-md-4">
                         <label for="inputSex">Sekse</label>
-                        <select id="inputSex" class="form-control" required
-                                oninvalid="this.setCustomValidity('Selecteer uw sekse, aub')">
+                        <select id="inputSex" class="form-control"
+                                oninvalid="this.setCustomValidity('Selecteer uw sekse, aub')" required>
                             <option selected>Kies...</option>
                             <option>Vrouw</option>
                             <option>Man</option>
@@ -66,13 +66,13 @@ if (isset($_POST['submit'])) {
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputAddress">Straat</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="" required
-                               oninvalid="this.setCustomValidity('Vul uw straatnaam in, aub')">
+                        <input type="text" class="form-control" id="inputAddress" placeholder=""
+                               oninvalid="this.setCustomValidity('Vul uw straatnaam in, aub')" required/>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputHuisnummer">Huisnummer</label>
-                        <input type="number" class="form-control" id="inputHuisnummer" placeholder="" required
-                               oninvalid="this.setCustomValidity('Vul uw huisnummer in, aub')">
+                        <input type="number" class="form-control" id="inputHuisnummer" placeholder=""
+                               oninvalid="this.setCustomValidity('Vul uw huisnummer in, aub')" required/>
                     </div>
                 </div>
                 <div class="form-row">
@@ -90,18 +90,18 @@ if (isset($_POST['submit'])) {
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputCity">Woonplaats</label>
-                        <input type="text" class="form-control" id="inputCity" placeholder="" required
-                               oninvalid="this.setCustomValidity('Vul uw woonplaats in, aub')">
+                        <input type="text" class="form-control" id="inputCity" placeholder=""
+                               oninvalid="this.setCustomValidity('Vul uw woonplaats in, aub')" required/>
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputZip">Postcode</label>
-                        <input type="text" class="form-control" id="inputZip" placeholder="" required
-                               oninvalid="this.setCustomValidity('Vul uw postcode in, aub')">
+                        <input type="text" class="form-control" id="inputZip" placeholder=""
+                               oninvalid="this.setCustomValidity('Vul uw postcode in, aub')" required/>
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputState">Land</label>
-                        <select id="inputState" class="form-control" required
-                                oninvalid="this.setCustomValidity('Selecteer uw land, aub')">
+                        <select id="inputState" class="form-control"
+                                oninvalid="this.setCustomValidity('Selecteer uw land, aub')"required>
                             <option selected>Kies...</option>
                             <option>Nederland</option>
                             <option>Duitsland</option>
@@ -118,19 +118,19 @@ if (isset($_POST['submit'])) {
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
                         <input type="email" class="form-control" id="inputEmail4" placeholder=""
-                               required>
+                               required/>
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputMobile">Telefoonnummer</label>
-                        <input type="tel" class="form-control" id="inputMobile" placeholder="" required>
+                        <input type="tel" class="form-control" id="inputMobile" placeholder="" required/>
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputBDay">Geboortedatum</label>
-                        <input type="date" class="form-control" id="inputBDay" placeholder="" required>
+                        <input type="date" class="form-control" id="inputBDay" placeholder="" required/>
                     </div>
                 </div>
                 <div class="g-recaptcha" data-sitekey="6LeD11kUAAAAALo1gAFNdURzm7vYRGilQ5m0sKtI"></div>
-                <input type="button" name="next" class="btn btn-primary next" value="Volgende"/>
+                <input type="button" name="next" class="btn btn-primary" value="Volgende"/>
             </fieldset>
             <!--            Accountgegevens-->
             <fieldset>
@@ -143,25 +143,25 @@ if (isset($_POST['submit'])) {
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputVerificatie">Verificatiecode</label>
-                        <input type="text" class="form-control" id="inputVerificatie" placeholder="" required
-                               oninvalid="this.setCustomValidity('Vul uw code in, aub')">
+                        <input type="text" class="form-control" id="inputVerificatie" placeholder=""
+                               oninvalid="this.setCustomValidity('Vul uw code in, aub')" required/>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputUsername">Gebruikersnaam</label>
-                        <input type="text" class="form-control" id="inputUsername" placeholder="" required
-                               oninvalid="this.setCustomValidity('Vul uw gebruikersnaam in, aub')">
+                        <input type="text" class="form-control" id="inputUsername" placeholder=""
+                               oninvalid="this.setCustomValidity('Vul uw gebruikersnaam in, aub')" required/>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputPassword">Wachtwoord</label>
                         <input type="password" class="form-control" id="inputPassword" placeholder=""
-                               required oninvalid="this.setCustomValidity('Vul uw wachtwoord in, aub')">
+                               oninvalid="this.setCustomValidity('Vul uw wachtwoord in, aub')" required/>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputPassword2">Wachtwoord bevestigen</label>
                         <input type="password" class="form-control" id="inputPassword2" placeholder=""
-                               required oninvalid="this.setCustomValidity('Herhaal uw voornaam, aub')">
+                               oninvalid="this.setCustomValidity('Herhaal uw voornaam, aub')" required/>
                     </div>
                     <p id="passwordHelpBlock" class="form-text text-muted">
                         Het wachtwoord moet tussen de 7-20 tekens bevatten. Waaronder hoofdletters en cijfers. Het
@@ -171,8 +171,8 @@ if (isset($_POST['submit'])) {
                 <div class="form-row">
                     <div class="form-group col-md-3">
                         <label for="inputQuestion">Geheime vraag</label>
-                        <select id="inputQuestion" class="form-control" required
-                                oninvalid="this.setCustomValidity('Selecteer uw vraag, aub')">
+                        <select id="inputQuestion" class="form-control"
+                                oninvalid="this.setCustomValidity('Selecteer uw vraag, aub')" required>
                             <option selected>Kies...</option>
                             <option>In welke straat ben je geboren?</option>
                             <option>Wat is de meisjesnaam je moeder?</option>
@@ -183,11 +183,11 @@ if (isset($_POST['submit'])) {
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputAnswer">Antwoord op vraag</label>
-                        <input type="text" class="form-control" id="inputAnswer" placeholder="" required
-                               oninvalid="this.setCustomValidity('Vul uw antwoord op de vraag in, aub')">
+                        <input type="text" class="form-control" id="inputAnswer" placeholder=""
+                               oninvalid="this.setCustomValidity('Vul uw antwoord op de vraag in, aub')" required/>
                     </div>
                 </div>
-                <input type="button" name="next" class="btn btn-primary next" value="Volgende"/>
+                <input type="button" name="next" class="btn btn-primary" value="Volgende"/>
             </fieldset>
             <!--            Betaalgegevens-->
             <fieldset>
@@ -200,8 +200,8 @@ if (isset($_POST['submit'])) {
                 <div class="form-group">
                     <div class="form-group col-md-3">
                         <label for="inputBank">Bank</label>
-                        <select id="inputQuestion" class="form-control" required
-                                oninvalid="this.setCustomValidity('Selecteer uw bank, aub')">
+                        <select id="inputQuestion" class="form-control"
+                                oninvalid="this.setCustomValidity('Selecteer uw bank, aub')" required>
                             <option selected>Kies...</option>
                             <option>Rabobank</option>
                             <option>ING</option>
@@ -213,11 +213,11 @@ if (isset($_POST['submit'])) {
                     <div class="form-group col-md-3">
                         <label for="inputBanknum">Bankrekeningnummer</label>
                         <input type="password" class="form-control" id="inputBanknum" placeholder=""
-                               required oninvalid="this.setCustomValidity('Voer uw rekeningnummer in, aub')">
+                               oninvalid="this.setCustomValidity('Voer uw rekeningnummer in, aub')" required/>
                     </div>
                 </div>
                 <input type="button" name="previous" class="btn btn-primary previous" value="Terug"/>
-                <input type="submit" name="sumbit" class="btn btn-primary next" value="Verzend"/>
+                <input type="submit" name="sumbit" class="btn btn-primary" value="Verzend"/>
             </fieldset>
         </form>
     </div>

@@ -65,3 +65,43 @@ values (:username, :fname, :lname, :street + :housenumber, :street2 + :housenumb
     $stmt->execute();
     closeDatabaseConnection($dbh);
 }
+
+function login($username, $password)
+{
+    $dbh = getDatabaseConnection();
+    $query = '';
+    $stmt = $dbh->prepare($query);
+    $stmt->bindParam(':username', $username);
+    $stmt->execute();
+    $result = $stmt->fetchAll();
+    closeDatabaseConnection($dbh);
+
+    if ($result != null) {
+        foreach ($result as $user) {
+            if (password_verify($password, $user['password'])) {
+                $_SESSION['username'] = $user['user_name'];
+                $_SESSION['discount'] = $user['discount_percentage'];
+                $_SESSION['firstname'] = $user['firstname'];
+                $_SESSION['lastname'] = $user['lastname'];
+                $_SESSION['timestamp'] = date_create();
+                ob_clean();
+                header('location:?url=index');
+            } else {
+                $errorMessage = 'Password unknown!';
+                ?>
+                <div class="loginfailed">
+                    <p><?= $errorMessage ?></p>
+                </div>
+                <?php
+            }
+        }
+    } else {
+        $errorMessage = 'Username unknown!';
+        ?>
+        <div class="loginfailed">
+            <p><?= $errorMessage ?></p>
+        </div>
+        <?php
+    }
+}
+?>
