@@ -8,10 +8,10 @@
 function getDatabaseConnection()
 {
 
-    $hostname = 'localhost';
-    $dbname = 'EenmaalAndermaal';
-    $username = 'sa';
-    $password = 'lekkerkort';
+    $hostname = 'mssql.iproject.icasites.nl';
+    $dbname = 'iproject41';
+    $username = 'iproject41';
+    $password = 'NqszoMdujk';
 
     try {
         $dbh = new PDO('sqlsrv:Server=' . $hostname . ';Database=' . $dbname . ';ConnectionPooling=0', $username, $password);
