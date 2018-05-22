@@ -4,6 +4,7 @@
 
 html {
     overflow-x: hidden;
+    height: 100%;
 }
 
 body {
@@ -150,7 +151,7 @@ header > .container {
 }
 
 @media only screen and (max-width: 420px) {
-    header > .container > .d-flex > .p-2 > button {
+    header > .container > .d-flex > .p-2 > a[type=button] {
         display: none;
     }
 }
@@ -209,12 +210,12 @@ header > .container > .d-flex > .p-2 > .btn-primary:hover {
 @media only screen and (max-width: 820px) {
 
     #search-wrap {
+        display: inline-block;
         position: relative;
         float: right;
-        margin-right: 1rem;
     }
 
-    input[type="text"] {
+    #search-wrap > form > input[type="text"] {
         height: 30px;
         font-size: 1em;
         display: inline-block;
@@ -223,13 +224,13 @@ header > .container > .d-flex > .p-2 > .btn-primary:hover {
         border: none;
         outline: none;
         color: #3F3F37;
-        padding: 3px 30px 3px 3px;
+        padding: 3px 30px 3px;
         width: 0;
         position: absolute;
         top: 0;
         right: 0;
         background: transparent;
-        z-index: 3000;
+        z-index: 3;
         transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
         cursor: pointer;
     }
@@ -238,26 +239,25 @@ header > .container > .d-flex > .p-2 > .btn-primary:hover {
         color: #3F3F37;
     }
 
-    input[type="text"]:focus:hover {
+    #search-wrap > form > input[type="text"]:focus:hover {
         border-bottom: 1px solid #3F3F37;
         background-color: transparent;
     }
 
-    input[type="text"]:focus {
-        width: 70vw;
-        z-index: 1000;
+    #search-wrap > form > input[type="text"]:focus {
+        width: 90vw;
+        z-index: 1;
         border-bottom: 1px solid #3F3F37;
         cursor: text;
         background-color: transparent;
-        margin-right: 1.2rem;
     }
 
-    input[type="submit"] {
+    #search-wrap > form > input[type="submit"] {
         height: 30px;
         width: 26px;
         display: inline-block;
-        color: #3F3F37;
-        float: left;
+        color: #87B04E;
+        float: right;
         text-indent: -10000px;
         border: none;
         position: absolute;
@@ -283,9 +283,8 @@ header > .container > .d-flex > .p-2 > .btn-primary:hover {
         transition: background-color 5000s ease-in-out 0s;
     }
 
-    input[type="submit"]:hover {
+    #search-wrap > form > input[type="submit"]:hover {
         opacity: 1;
-        cursor: pointer;
     }
 
     input, textarea {
@@ -299,8 +298,8 @@ header > .container > .d-flex > .p-2 > .btn-primary:hover {
         border-radius: 30px;
         height: 26px;
         width: 26px;
-        border: 4px solid #3F3F37;
-        z-index: 2000;
+        border: 4px solid #87B04E;
+        z-index: 100;
         pointer-events: none;
     }
 
@@ -308,14 +307,14 @@ header > .container > .d-flex > .p-2 > .btn-primary:hover {
         content: "";
         height: 4px;
         width: 10px;
-        background: #3F3F37;
+        background: #87B04E;
         position: absolute;
         top: 20px;
-        left: 16px;
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
+        left: 14px;
+        -webkit-transform: rotate(47deg);
+        -moz-transform: rotate(47deg);
+        -ms-transform: rotate(47deg);
+        -o-transform: rotate(47deg);
         z-index: 100;
         pointer-events: none;
     }
@@ -323,7 +322,7 @@ header > .container > .d-flex > .p-2 > .btn-primary:hover {
 }
 
 @media only screen and (min-width: 821px) {
-    .con {
+    #search-wrap {
         display: none;
     }
 }
@@ -335,6 +334,16 @@ header > .container > .d-flex > .p-2 > .btn-primary:hover {
     min-width: 100%;
     margin: 0 auto;
     position: relative;
+}
+
+main > .container {
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 800px) {
+    main > .container {
+        min-height: 130vh;
+    }
 }
 
 .btn-primary {
@@ -520,8 +529,6 @@ fieldset {
 .progress-bar {
     background-color: #87B04E;
 }
-
-
 
 /*----------------------------------------- LOGO -------------------------*/
 #logo-img {

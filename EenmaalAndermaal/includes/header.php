@@ -57,7 +57,7 @@
 
         <!-- icoontjes -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="con flex-row">
+            <div class="con d-flex flew-row justify-content-end">
                 <div id="search-wrap">
                     <form action="https://google.com" method="get">
                         <input id="search" name="q" type="text" placeholder="Search..."> <i class="search-icon ico"></i><input
