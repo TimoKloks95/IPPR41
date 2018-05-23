@@ -40,7 +40,7 @@
         }
         if (($statement->rowCount()) === 0) {
             closeDatabaseConnection($dbh);
-            header('Location: ?url=notfound');
+            //header('Location: ?url=notfound');
         } else {
             while ($row = $statement->fetch()) {
                 $startprijs = $row['startprijs'];
