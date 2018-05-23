@@ -1,11 +1,10 @@
-
 //jQuery time
 var current_fs, next_fs, previous_fs; //fieldsets
 var left, opacity, scale; //fieldset properties which we will animate
 var animating; //flag to prevent quick multi-click glitches
 
-$(".next").click(function(){
-    if(animating) return false;
+$(".next").click(function () {
+    if (animating) return false;
     animating = true;
 
     current_fs = $(this).parent();
@@ -16,22 +15,22 @@ $(".next").click(function(){
     next_fs.show();
     //hide the current fieldset with style
     current_fs.animate({opacity: 0}, {
-        step: function(now, mx) {
+        step: function (now, mx) {
             //as the opacity of current_fs reduces to 0 - stored in "now"
             //1. scale current_fs down to 80%
             scale = 1 - (1 - now) * 0.2;
             //2. bring next_fs from the right(50%)
-            left = (now * 50)+"%";
+            left = (now * 50) + "%";
             //3. increase opacity of next_fs to 1 as it moves in
             opacity = 1 - now;
             current_fs.css({
-                'transform': 'scale('+scale+')',
+                'transform': 'scale(' + scale + ')',
                 'position': 'absolute'
             });
             next_fs.css({'left': left, 'opacity': opacity});
         },
         duration: 800,
-        complete: function(){
+        complete: function () {
             current_fs.hide();
             animating = false;
         },
@@ -40,8 +39,8 @@ $(".next").click(function(){
     });
 });
 
-$(".previous").click(function(){
-    if(animating) return false;
+$(".previous").click(function () {
+    if (animating) return false;
     animating = true;
 
     current_fs = $(this).parent();
@@ -51,19 +50,19 @@ $(".previous").click(function(){
     previous_fs.show();
     //hide the current fieldset with style
     current_fs.animate({opacity: 0}, {
-        step: function(now, mx) {
+        step: function (now, mx) {
             //as the opacity of current_fs reduces to 0 - stored in "now"
             //1. scale previous_fs from 80% to 100%
             scale = 0.8 + (1 - now) * 0.2;
             //2. take current_fs to the right(50%) - from 0%
-            left = ((1-now) * 50)+"%";
+            left = ((1 - now) * 50) + "%";
             //3. increase opacity of previous_fs to 1 as it moves in
             opacity = 1 - now;
             current_fs.css({'left': left});
-            previous_fs.css({'transform': 'scale('+scale+')', 'opacity': opacity});
+            previous_fs.css({'transform': 'scale(' + scale + ')', 'opacity': opacity});
         },
         duration: 800,
-        complete: function(){
+        complete: function () {
             current_fs.hide();
             animating = false;
         },
@@ -72,6 +71,46 @@ $(".previous").click(function(){
     });
 });
 
-$(".submit").click(function(){
+$(".submit").click(function () {
     return false;
-})
+});
+
+
+$(document).ready(function() {
+    $(".carousel-img").each(function() {
+        // Calculate aspect ratio and store it in HTML data- attribute
+        var aspectRatio = $(this).width() / $(this).height();
+        $(this).data("aspect-ratio", aspectRatio);
+
+        // Conditional statement
+        if (aspectRatio > 1) {
+            // Image is landscape
+            $(this).css({
+                width: "auto",
+                height: "100%",
+                margin: "0 auto",
+                display: "block",
+                verticalAlign: "bottom"
+
+            });
+        } else if (aspectRatio < 1) {
+            // Image is portrait
+            $(this).css({
+                maxHeight: "100%",
+                margin: "0 auto",
+                display: "block",
+                verticalAlign: "bottom"
+            });
+        } else {
+            // Image is square
+            $(this).css({
+                maxWidth: "100%",
+                height: "100%",
+                margin: "0 auto",
+                display: "block",
+                verticalAlign: "bottom"
+            });
+        }
+    })
+});
+

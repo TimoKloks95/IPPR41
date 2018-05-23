@@ -130,7 +130,7 @@ if (isset($_POST['submit'])) {
                     </div>
                 </div>
                 <div class="g-recaptcha" data-sitekey="6LeD11kUAAAAALo1gAFNdURzm7vYRGilQ5m0sKtI"></div>
-                <input type="button" name="next" class="btn btn-primary" value="Volgende"/>
+                <input type="button" name="next" class="btn btn-primary next" value="Volgende"/>
             </fieldset>
             <!--            Accountgegevens-->
             <fieldset>

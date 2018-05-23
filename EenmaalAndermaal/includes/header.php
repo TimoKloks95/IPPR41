@@ -49,7 +49,7 @@
                 } else {
                     ?>
                     <a href="?url=login" type="button" class="btn btn-primary">Login</a>
-                    <a href="?url=register" type="button" class="btn btn-primary">Register</a>
+                    <a href="?url=registreer" type="button" class="btn btn-primary">Registreer</a>
                     <?php
                 }
                 ?>

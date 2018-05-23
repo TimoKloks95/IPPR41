@@ -352,9 +352,13 @@ main > .container {
     color: #3F3F37;
 }
 
-.btn:hover {
+.btn:hover, .btn-primary:hover {
     background-color: #DE541E;
-    border: none;
+    border: 1px solid transparent;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
 }
 
 .card-text {
@@ -387,13 +391,21 @@ main > .container {
 
 /* --------------------------------- DETAIL PAGINA -----------------------*/
 .container-detail {
-    max-width: 35vw;
     height: auto;
     position: relative;
 }
 
+.container-detail > .row > .col > .collapse > .card {
+    max-width: 55vw;
+    margin-bottom: 1rem;
+}
+
+.container-detail > .row > col {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .container-detailbieden {
-    max-width: 22vw;
     max-height: 100vh;
     margin: 20px 0 0 auto;
 }
@@ -411,16 +423,16 @@ main > .container {
     margin: 10px 0 10px 0;
 }
 
-.container-detailbieden button {
+.container-detailbieden > .btn-primary {
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 0.7rem;
     background-color: #DE541E;
-    color: white;
-    border: transparent 0.25rem solid;
+    border: #DE541E 0.1rem solid;
 }
 
-.container-detailbieden > button:hover {
-    background-color: #98B06F;
-    color: white;
-    border: #DE541E 0.25rem solid;
+.container-detailbieden > .btn-primary:hover {
+    background-color: #87B04E;
 }
 
 #meerbiedingenknop {
@@ -438,29 +450,83 @@ main > .container {
 
 /* -- CAROUSEL -- */
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 100%;
-}
-
-.carousel img {
-    max-width: 55vh;
-    max-height: 60vh;
-    min-height: 60vh;
-    min-width: 55vh;
-    margin: 0 auto;
-}
-
 .carousel {
-    max-width: 55vw;
-    max-height: 60vh;
-    min-height: 60vh;
-    min-width: 55vw;
+    margin-bottom: 1rem;
 }
 
-.w-100 {
-    background-size: contain;
-    background: no-repeat 50% 50%;
+.carousel-inner, .carousel {
+    max-width: 50vw;
+    max-height: 55vh;
+    min-height: 55vh;
+    min-width: 50vw;
+
+    vertical-align: bottom;
+    display: table-cell;
 }
+
+@media only screen and (min-width: 990px) {
+    .carousel {
+        margin-bottom: 1rem;
+    }
+
+    .carousel-inner, .carousel {
+        max-width: 50vw;
+        max-height: 55vh;
+        min-height: 55vh;
+        min-width: 50vw;
+
+        vertical-align: bottom;
+        display: table-cell;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .carousel {
+        margin-bottom: 1rem;
+    }
+
+    .carousel-inner, .carousel {
+        max-width: 70vw;
+        max-height: 60vh;
+        min-height: 60vh;
+        min-width: 70vw;
+
+        vertical-align: bottom;
+        display: table-cell;
+    }
+}
+@media only screen and (max-width: 825px) {
+    .carousel {
+        margin-bottom: 1rem;
+    }
+
+    .carousel-inner, .carousel {
+        max-width: 70vw;
+        max-height: 55vh;
+        min-height: 55vh;
+        min-width: 70vw;
+
+        vertical-align: bottom;
+        display: table-cell;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .carousel {
+        margin-bottom: 1rem;
+    }
+
+    .carousel-inner, .carousel {
+        max-width: 60vw;
+        max-height: 55vh;
+        min-height: 55vh;
+        min-width: 60vw;
+
+        vertical-align: bottom;
+        display: table-cell;
+    }
+}
+
 
 .carousel-control-prev, .carousel-control-next {
     background-color: #3F3F37;
@@ -502,9 +568,8 @@ p {
     flex-wrap: wrap;
 }
 
-.card {
-    width: 18rem;
-    margin: 0.5rem;
+.info-button {
+    margin: 1rem 0;
 }
 
 main > .card:hover {
@@ -532,7 +597,7 @@ fieldset {
 
 /*----------------------------------------- LOGIN PAGE --------------------------------------------*/
 
-.tile{
+.tile {
     border-radius: .1rem;
     box-shadow: 13px 13px 13px 16px rgba(0, 0, 0, 0.2);
     position: relative;
@@ -546,6 +611,7 @@ fieldset {
     background: linear-gradient(-60deg, #87B04c, #98B06F);
     height: 17vh;
 }
+
 #tile-header-h2 {
     color: #3F3F37;
     opacity: .75;
@@ -559,6 +625,7 @@ fieldset {
 .tile-body {
     padding: 2rem;
 }
+
 /*----------------------------------------- LOGO -------------------------*/
 #logo-img {
     max-width: 160px;
@@ -589,6 +656,7 @@ footer {
 
 .footer-list-top {
     width: 33.333%;
+    margin-left: -2rem;
 }
 
 .footer-list-top > li {
@@ -667,6 +735,7 @@ footer > .d-flex {
     .footer-bottom-rights {
         display: block;
     }
+
 }
 
 @media only screen and (max-width: 320px) {

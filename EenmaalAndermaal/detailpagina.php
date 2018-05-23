@@ -7,23 +7,28 @@
  */
 ?>
 <div class="container">
-    <div class="d-flex flex-sm-nowrap">
-        <div class="container-detail">
+    <div class="row">
+        <div class="container-detail float-left col-lg-8">
             <h2>[Titel]</h2>
             <div class="carousel">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="images/klopt.jpg"
+                            <img class="carousel-img" src="images/klopt.jpg"
                                  data-src="holder.js/900x400?theme=social" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/CrowSkullBones-1.jpg"
+                            <img class="carousel-img" src="images/CrowSkullBones-1.jpg"
                                  data-src="holder.js/900x400?theme=industrial" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="carousel-img" src="images/landscape.jpeg"
+                                 data-src="holder.js/900x400?theme=industrial" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -44,9 +49,9 @@
                     <p class="card-text">---product beschrijving---</p>
                 </div>
             </div>
-            <a class="btn btn-primary" data-toggle="collapse" href="#productinfo" role="button"
+            <a class="btn btn-primary info-button" data-toggle="collapse" href="#productinfo" role="button"
                aria-expanded="false">Product</a>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#verkoperinfo"
+            <button class="btn btn-primary info-button" type="button" data-toggle="collapse" data-target="#verkoperinfo"
                     aria-expanded="false">Verkoper
             </button>
             <div class="row">
@@ -75,10 +80,10 @@
                 </div>
             </div>
         </div>
-        <div class="container-detailbieden">
+        <div class="container-detailbieden col-lg-4">
 
             <h4>00:00</h4>
-            <button type="button" class="btn btn-primary btn-block">Log in en bied mee!</button>
+            <a href="?url=login" type="button" class="btn btn-primary">Login en bied mee</a>
             <table class="table">
                 <thead>
                 <tr>

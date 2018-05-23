@@ -78,12 +78,11 @@ function login($username, $password)
 
     if ($result != null) {
         foreach ($result as $user) {
-            if (password_verify($password, $user['password'])) {
+            if (password_verify(
+                $password, $user['password'])) {
                 $_SESSION['username'] = $user['user_name'];
-                $_SESSION['discount'] = $user['discount_percentage'];
                 $_SESSION['firstname'] = $user['firstname'];
                 $_SESSION['lastname'] = $user['lastname'];
-                $_SESSION['timestamp'] = date_create();
                 ob_clean();
                 header('location:?url=index');
             } else {
@@ -104,4 +103,5 @@ function login($username, $password)
         <?php
     }
 }
+
 ?>
