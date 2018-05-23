@@ -395,6 +395,23 @@ main > .container {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+.home-info h1, h3 {
+    color: #87B04E;
+}
+
+.container-homeregistreer > .btn-primary {
+    color: whitesmoke;
+    width: 40%;
+    margin-top: 0.7rem;
+    background-color: #DE541E;
+    border: #DE541E 0.1rem solid;
+}
+
+.container-homeregistreer > .btn-primary:hover {
+    background-color: #87B04E;
+    border-color: #DE541E;
+}
+
 /* --------------------------------- DETAIL PAGE -----------------------*/
 .container-detail {
     height: auto;

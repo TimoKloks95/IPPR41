@@ -173,3 +173,41 @@
         </div>
     </div>
 </main>
+<div class="home-info">
+    <div class="jumbotron text-center">
+        <h1>Welkom bij EenmaalAndermaal!</h1>
+        <h3>Hoe werkt het en wat kun je ermee?</h3>
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>Registreren/inloggen</h3>
+                    <p>Voordat u mee kunt bieden, moet u eerst inloggen met een account.</p><br>
+                    <p>Heeft u nog geen account? Dan kunt u zich hieronder registreren:</p>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Veilingen zoeken</h3>
+                    <p>Bovenin kunt u kiezen om onze veilingen te bekijken. Ook kunt u deze per categorie tonen.</p>
+                    <p>Eveneens kunt u bovenin in de zoekbalk intypen wat voor veiling u zoekt. Deze zal alle veilingen
+                        tonen die overeen komen met uw zoekterm.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Bod plaatsen</h3>
+                    <p>Bij openstaande veilingen kunt u rechtsboven zien hoeveel tijd u nog heeft om mee te bieden.</p>
+                    <p>U vult het bedrag in dat u wenst te bieden en drukt op "Plaats bod". U kunt alleen meebieden wanneer
+                        uw bod hoger is dan het huidige hoogste bod.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Veiling aanmaken</h3>
+                    <p>DEZE TEKST ZAL WORDEN INGEVULD NADAT DEZE FUNCTIE IS UITGEWERKT</p>
+                    <p>DEZE TEKST ZAL WORDEN INGEVULD NADAT DEZE FUNCTIE IS UITGEWERKT</p>
+                </div>
+                <div class="container-homeregistreer col-sm-12">
+                    <a href="?url=registreer" type="button" class="btn btn-primary">Registreren</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
