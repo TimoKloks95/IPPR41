@@ -391,25 +391,55 @@ main > .container {
 
 
 /* --------------------------------- HOME PAGE --------------------------*/
-.container > a > .card:hover{
+.row > .card:hover{
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.home-info h1, h3 {
+.att{
+    color: #DE541E;
+}
+.home-info{
+    margin-left: -40px;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.home-info h2, h3, h4 {
     color: #87B04E;
+}
+
+.home-info p {
+    text-align: left;
 }
 
 .container-homeregistreer > .btn-primary {
     color: whitesmoke;
-    width: 40%;
-    margin-top: 0.7rem;
+    width: 30%;
+    margin-top: 1rem;
     background-color: #DE541E;
     border: #DE541E 0.1rem solid;
+    font-family: 'helvetica', monospace;
+    text-align: inherit;
 }
 
 .container-homeregistreer > .btn-primary:hover {
     background-color: #87B04E;
     border-color: #DE541E;
+}
+
+@media only screen and (max-width: 480px) {
+    .home-info {
+        margin: inherit;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container-homeregistreer > .btn-primary {
+        width: 70%;
+        font-size: 1rem;
+    }
 }
 
 /* --------------------------------- DETAIL PAGE -----------------------*/
@@ -673,7 +703,7 @@ fieldset {
 
 footer {
     background: #3F3F37;
-    margin-top: auto;
+    margin-top: 1rem;
     width: 100%;
 }
 
