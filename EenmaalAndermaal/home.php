@@ -183,7 +183,7 @@
                     <div class="row">
                         <div class="col-sm-3">
                             <h3>Inloggen</h3>
-                            <p>Voordat u mee kunt bieden, moet u eerst inloggen met een account.</p><br>
+                            <p>Voordat u mee kunt bieden, moet u eerst inloggen met een account.</p>
                             <p>Heeft u nog geen account? Dan kunt u zich hieronder registreren:</p>
                         </div>
                         <div class="col-sm-3">
