@@ -174,19 +174,18 @@
 
         <div class="home-info">
             <div class="jumbotron text-center">
-                <h2>Welkom bij EenmaalAndermaal!</h2>
                 <h4>Hoe werkt het en wat kun je ermee?</h4>
                 <br>
                 <br>
 
                 <div class="container">
                     <div class="row">
-                        <div class="subtitel-uitleg col-sm-3">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <h3>Inloggen</h3>
                             <p>Voordat u mee kunt bieden, moet u eerst inloggen met een account.</p>
                             <p>Heeft u nog geen account? Dan kunt u zich hieronder registreren:</p>
                         </div>
-                        <div class="subtitel-uitleg col-sm-3">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <h3>Veilingen zoeken</h3>
                             <p>Bovenin kunt u kiezen om onze veilingen te bekijken. Ook kunt u deze per categorie
                                 tonen.</p>
@@ -194,7 +193,7 @@
                                 veilingen
                                 tonen die overeen komen met uw zoekterm.</p>
                         </div>
-                        <div class="subtitel-uitleg col-sm-3">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <h3>Bod plaatsen</h3>
                             <p>Bij openstaande veilingen kunt u rechtsboven zien hoeveel tijd u nog heeft om mee te
                                 bieden.</p>
@@ -202,7 +201,7 @@
                                 meebieden wanneer
                                 uw bod hoger is dan het huidige hoogste bod.</p>
                         </div>
-                        <div class="subtitel-uitleg col-sm-3">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <h3>Veiling aanmaken</h3>
                             <p>Voor het aanmaken van een veiling drukt u op "Veiling aanmaken".</p>
                             <p>Zorg voor duidelijke foto's en een zinvolle beschrijving. Druk op "Veiling plaatsen" om de veiling te starten.</p>
