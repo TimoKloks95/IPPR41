@@ -433,9 +433,7 @@ main > .container {
     .home-info {
         margin: inherit;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .container-homeregistreer > .btn-primary {
         width: 70%;
         font-size: 1rem;
